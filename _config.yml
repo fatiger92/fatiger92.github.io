@@ -1,8 +1,9 @@
-title: Minimalist theme
+title: Victor Ji
 logo: /assets/img/logo.png
 email: bogus at gmail dot com
 description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
 show_downloads: false
+favicon: true
 google_analytics: UA-108144808-1
 color-scheme: dark
 plugins:
