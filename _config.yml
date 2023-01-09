@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Victor Ji"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "**하라는 대로 했는데 안되요 응애**"
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
