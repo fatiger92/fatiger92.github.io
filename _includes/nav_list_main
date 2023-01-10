@@ -13,30 +13,38 @@
                     <span style="font-family:'Shilla_CultureB-Bold';">개</style> 
       </li>
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">IDE</span>
+<!--Below things are related .Net FrameWork Lang-->
+        <span class="nav__sub-title">.Net FrameWork</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "Ide" %}
-                        <li><a href="/categories/Ide" class="">IDE ({{category[1].size}})</a></li>
+                    {% if category[0] == "Cpp" %}
+                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <!-- <ul>
+            <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Cpp Example" %}
+                        <li><a href="/categories/cppexample" class="">C++ 연습 문제 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "C Sharp" %}
+                        <li><a href="/categories/csharp" class="">C# ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+<!--Below things are related Coding Test-->
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++, C#) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -46,7 +54,66 @@
                         <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul> -->
+            </ul> 
+<!--Below things are related Unity-->
+        <span class="nav__sub-title">Unity</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Unity Lesson 1" %}
+                    <li><a href="/categories/unity-lesson-1" class="">유니티 강의1 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Unity Lesson 2" %}
+                    <li><a href="/categories/unity-lesson-2" class="">유니티 강의2 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Unity Lesson 3" %}
+                    <li><a href="/categories/unity-lesson-3" class="">유니티 강의3 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Unity Lesson 4" %}
+                    <li><a href="/categories/unity-lesson-4" class="">유니티 강의4 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "UnityDocs" %}
+                    <li><a href="/categories/unity-docs" class="">내 유니티 문서 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+<!--Below things are related Unreal Engine 5-->
+        <span class="nav__sub-title">UE5</span>
+<!--Below things are related Game Modding-->
+        <span class="nav__sub-title">Game Modding</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Rimworld" %}
+                    <li><a href="/categories/rimmod" class="">림월드 모딩 A-Z ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+<!--Below things are related Review-->
+        <span class="nav__sub-title">Review</span>
+<!--Below things are related Etc-->
+        <span class="nav__sub-title">Etc</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Jetbrain Rider" %}
+                    <li><a href="/categories/jetbrainrider" class="">JetBrain Rider Tip ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
   </ul>
 </nav>

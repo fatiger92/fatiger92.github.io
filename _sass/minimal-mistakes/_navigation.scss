@@ -493,8 +493,9 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $Silla;
-  font-size: $type-size-6;
-  font-weight: bold;
+  font-size: $type-size-4;
+  color: mix(#fff,$primary-color,35%);
+  //font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
