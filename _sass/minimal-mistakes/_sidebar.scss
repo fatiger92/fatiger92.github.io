@@ -51,12 +51,12 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    font-family: $Silla;
   }
 
   p,
   li {
-    font-family: $sans-serif;
+    font-family: $Silla;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -133,6 +133,7 @@
     height: auto;
   }
 
+// You can change your profile pic size here. 
   img {
     max-width: 200px;
     border-radius: 10%;
@@ -172,7 +173,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $Silla;
   font-size: $type-size-5;
 }
 
@@ -189,7 +190,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: $Silla;
   z-index: 20;
   cursor: pointer;
 

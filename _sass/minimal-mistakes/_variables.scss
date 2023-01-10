@@ -16,11 +16,13 @@ $indent-var: 1.3em !default;
 $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "D2Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$Cool: "MonoplexKR-Regular", !default;
+$Silla: "Shilla_CultureB-Bold", !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: "MonoplexKR-Regular", Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
