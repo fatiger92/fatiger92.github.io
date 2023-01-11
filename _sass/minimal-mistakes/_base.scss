@@ -58,8 +58,14 @@ h6 {
   font-size: $h-size-6;
 }
 
+// [category]
 small,
 .small {
+  font-size: $type-size-8;
+}
+
+large,
+.large {
   font-size: $type-size-6;
 }
 
