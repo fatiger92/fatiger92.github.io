@@ -12,7 +12,7 @@
   max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
-  font-family: $Silla;
+  font-family: $Cool;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
@@ -494,7 +494,7 @@
   padding: 0.25rem 0;
   font-family: $Silla;
   font-size: $type-size-4;
-  color: mix(#fff,$primary-color,35%);
+  color: $primary-color;
   //font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;

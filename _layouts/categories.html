@@ -34,18 +34,18 @@ layout: archive
           {% for post in category.last %}
             <article class="archive-item">
               <div>
-                  <span>
+                  <large style="color: #FFFFFF">
+                    {{ forloop.index | append: "." }}
                     <a href="{{ post.url }}">{{post.title}}</a>&nbsp
-                  </span>
+                  </large>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i>
                     {{ post.date | date: " %Y.%m.%d" }}
-               
                   </small>
                   <large>
-                  {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
-                  {%- include post__taxonomy.html -%}
-                {% endif %}
+                    {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
+                    {%- include post__taxonomy.html -%}
+                    {% endif %}
                   </large>
               </div>
             </article>
