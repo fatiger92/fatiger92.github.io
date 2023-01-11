@@ -317,9 +317,9 @@ body {
     margin-right: 10px;
   }
 }
-
+/* [category] */
 .page__taxonomy-item-tag {	
-  display: inside;	
+  display: initial;	
   margin-right: 5px;	
   margin-bottom: 8px;	
   padding: 3px 8px;	
@@ -328,15 +328,17 @@ body {
   border-radius: $border-radius;	
   background-color: #4D5357;	
   font-family: $Cool;	
-  color: $primary-color;	
+  font-weight: bold;
+  color: mix(#FFF,$primary-color,60%);	
 
   &:hover {	
     text-decoration: none;	
     color: mix(#ffffff, $text-color, 40%); /* 커서 댈 때 색깔 */	
+    background-color: #000000;	
   }	
 }	
 .page__taxonomy-item-category {	
-  display: inside;	
+  display: initial;	
   margin-right: 5px;	
   margin-bottom: 8px;	
   padding: 3px 8px;	
@@ -345,11 +347,13 @@ body {
   border-radius: $border-radius;	
   background-color: mix(#fff, #4D5357, 18%);	
   font-family: $Cool;	
-  color: mix(#fff, $primary-color, 2%);;	
+  font-weight: bold;
+  color: mix(#FFF,$primary-color,60%);	
 
   &:hover {	
     text-decoration: none;	
     color: mix(#ffffff, $text-color, 40%); /* 커서 댈 때 색깔 */	
+    background-color: #000000;	
   }	
 }
 
