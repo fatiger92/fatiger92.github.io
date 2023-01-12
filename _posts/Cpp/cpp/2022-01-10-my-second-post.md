@@ -28,4 +28,4 @@ last_modified_at: 2022-01-12
     😄 테스트 테스트 테스트 테스트 테스트 테스트
     테스트 테스트 테스트 테스트 테스트 테스트  😄
 
-[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
+[Top](#){: .btn .btn--primary }{: .align-right}

@@ -4,11 +4,11 @@ main:
   - title: "Home"
     url: /index.html
   - title: "About"
-    url: /index.html
+    url: /about/
   - title: "Category"
     url: /categories/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Sample Collections"
+    url: https://google.com
   # - title: "Sitemap"
   #   url: /sitemap/
 
