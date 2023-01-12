@@ -317,7 +317,7 @@ body {
     margin-right: 10px;
   }
 }
-/* [category] */
+/* [category] tag */
 .page__taxonomy-item-tag {	
   display: initial;	
   margin-right: 5px;	
@@ -329,14 +329,17 @@ body {
   background-color: #4D5357;	
   font-family: $Cool;	
   font-weight: bold;
-  color: mix(#FFF,$primary-color,60%);	
+  color: mix(#000,$primary-color,30%);	
 
+  /* Mouse hover */
   &:hover {	
     text-decoration: none;	
-    color: mix(#ffffff, $text-color, 40%); /* 커서 댈 때 색깔 */	
-    background-color: #000000;	
-  }	
+    color: $black-color;
+    background-color: $necktie-color;	
+  }
 }	
+
+/* [category] selected tag */
 .page__taxonomy-item-category {	
   display: initial;	
   margin-right: 5px;	
@@ -348,12 +351,13 @@ body {
   background-color: mix(#fff, #4D5357, 18%);	
   font-family: $Cool;	
   font-weight: bold;
-  color: mix(#FFF,$primary-color,60%);	
+  color: mix(#000,$primary-color,10%);	
 
+  /* Mouse hover */
   &:hover {	
     text-decoration: none;	
-    color: mix(#ffffff, $text-color, 40%); /* 커서 댈 때 색깔 */	
-    background-color: #000000;	
+    color: $black-color;
+    background-color: $necktie-color;	
   }	
 }
 
@@ -409,7 +413,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    color: mix(#fff, $primary-color, 60%);
+    color: mix(#fff, $primary-color, 50%);
     text-decoration: none;
     border-bottom: 1px solid $border-color;
     font-family: $Cool;
