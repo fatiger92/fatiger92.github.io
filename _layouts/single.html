@@ -50,26 +50,31 @@ classes: wide
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-left' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "Index" }}</h4></header>	
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
             </nav>
           </aside>
         {% endif %}
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
-
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>
+        </div>
+        {% endif %}          
+            <p></p>	
+            <h4 class="page__meta-title">
+              <span style="font-family:'Coming Soon'; color:#F26700;">
+                {{ page.categories[0] }}
+              </span> 
+              <span style="font-family:'MonoplexKR-Regular';">카테고리 내 다른 글 보러가기</span>
+            </h4>	
+            {% include post_pagination.html %}	
+            <p></p>
+          </section>
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
-        {% include page__date.html %}
+        {% if page.share %}{% include social-share.html %}{% endif %}
       </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
@@ -79,20 +84,20 @@ classes: wide
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
+  <div class="page__related"> 
+    <!--site.data.ui-text[site.locale].related_label-->	
+    <h4 class="page__related-title">{{ "🍳 Recent Posts Top 10 🍳" }}</h4>	
+      {% for post in site.related_posts limit:10 %}	
+        {% include archive-single3.html %}
         {% endfor %}
       </div>
     </div>
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
-      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
-      <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
+      <h4 class="page__related-title">{{ "Recent Posts" }}</h4>	
+      <div class="grid__wrapper">	
+        {% for post in site.posts limit:3 %}
           {% if post.id == page.id %}
             {% continue %}
           {% endif %}
