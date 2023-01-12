@@ -7,8 +7,8 @@ main:
     url: /about/
   - title: "Category"
     url: /categories/
-  - title: "Sample Collections"
-    url: https://google.com
+  #- title: "Sample Collections"
+  #  url: https://google.com
   # - title: "Sitemap"
   #   url: /sitemap/
 
