@@ -116,44 +116,70 @@
       }
     }
   }
-
-  /* next/previous buttons */
-  &--pager {
-    display: block;
-    padding: 1em 2em;
-    float: left;
-    width: 50%;
-    font-family: $Silla_Culture;
-    font-size: $type-size-5;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
-    border-radius: $border-radius;
-
-    &:hover {
-      @include yiq-contrasted($muted-text-color);
-    }
-
-    &:first-child {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-
-    &:last-child {
-      margin-left: -1px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-
-    &.disabled {
-      color: rgba($muted-text-color, 0.5);
-      pointer-events: none;
-      cursor: not-allowed;
-    }
-  }
 }
+
+.pagination_prev_next {	
+  @include clearfix();	
+  float: left;	
+  width: 100%;	
+
+  /* next/previous buttons */	
+  &--pager {	
+    margin-top: 0em;	
+    padding-top: 0em;	
+    display: block;	
+    padding: 1em 2em;	
+    //float: left;	
+    width: 100%;	
+    font-family: $Silla_Culture;	
+    font-size: $type-size-5;	
+    font-weight: bold;	
+    text-align: center;	
+    text-decoration: none;	
+    color: $muted-text-color;	
+    border: 1px solid mix(#fff, $border-color, 60%);	
+    border-radius: $border-radius;	
+    
+    .prev_next {	
+      font-family: $Silla_Culture;	
+      color:$tiger-color;	
+    }	
+
+    &:hover {	
+      @include yiq-contrasted($muted-text-color);	
+    }	
+
+    &:first-child {	
+      border-bottom-left-radius: 0;	
+      border-bottom-right-radius: 0;	
+    }	
+
+    &:last-child {	
+      //margin-left: -1px;	
+      margin-bottom: 1em;	
+      border-top-left-radius: 0;	
+      border-top-right-radius: 0;	
+    }	
+
+    &.disabled-first-child {	
+      border-bottom-left-radius: 0;	
+      border-bottom-right-radius: 0;	
+      color: rgba($muted-text-color, 0.5);	
+      pointer-events: none;	
+      cursor: not-allowed;	
+    }	
+
+    &.disabled-last-child {	
+      margin-bottom: 1em;	
+      border-top-left-radius: 0;	
+      border-top-right-radius: 0;	
+      color: rgba($muted-text-color, 0.5);	
+      pointer-events: none;	
+      cursor: not-allowed;	
+    }	
+  }	
+}
+
 
 .page__content + .pagination,
 .page__meta + .pagination,
@@ -184,8 +210,6 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    -webkit-transition: none;
-    transition: none;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -199,11 +223,6 @@
     &.site-title {
       margin-left: 0;
     }
-  }
-
-  img {
-    -webkit-transition: none;
-    transition: none;
   }
 
   &__toggle {
@@ -227,6 +246,7 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+    font-size: $type-size-4;
 
     li {
       -webkit-box-flex: 0;
@@ -440,9 +460,23 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: $Silla_Culture;	
+
+  img { // 방문자수 이미지 크기 맞추느라 추가했던 것	
+    width: auto; height: auto;	
+    max-width: 140px;	
+    max-height: 38px;	
+    margin-bottom: 1em;	
+  }
 
   a {
     color: inherit;
+    font-size: $type-size-4;	
+    font-family: $Silla_Culture;	
+    color: mix(#fff,$primary-color,80%);	
+    &:hover {	
+      text-decoration: underline;	
+    }
   }
 
   .active {
@@ -493,7 +527,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $Silla_Culture;
-  font-size: $type-size-4;
+  font-size: $type-size-3;
   color: $primary-color;
   //font-weight: bold;
   text-transform: uppercase;

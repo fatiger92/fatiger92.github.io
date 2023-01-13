@@ -14,7 +14,7 @@
       </li>
       <li>
 <!--Below things are related .Net FrameWork Lang-->
-        <span class="nav__sub-title">.Net FrameWork</span>
+        <span class="nav__sub-title">.Net </span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
@@ -28,7 +28,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp Example" %}
-                        <li><a href="/categories/cppexample" class="">C++ 연습 문제 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cppexample" class="">C++ Practice Exam({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -44,14 +44,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++, C#) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">Algorithm (with C++, C#) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
@@ -60,35 +60,35 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 1" %}
-                    <li><a href="/categories/unity-lesson-1" class="">유니티 강의1 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-1" class="">Unity Lecture 1 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 2" %}
-                    <li><a href="/categories/unity-lesson-2" class="">유니티 강의2 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-2" class="">Unity Lecture 2 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 3" %}
-                    <li><a href="/categories/unity-lesson-3" class="">유니티 강의3 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-3" class="">Unity Lecture 3 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 4" %}
-                    <li><a href="/categories/unity-lesson-4" class="">유니티 강의4 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-4" class="">Unity Lecture 4 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "UnityDocs" %}
-                    <li><a href="/categories/unity-docs" class="">내 유니티 문서 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-docs" class="">My Unity Doc ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -99,18 +99,27 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Rimworld" %}
-                    <li><a href="/categories/rimmod" class="">림월드 모딩 A-Z ({{category[1].size}})</a></li>
+                    <li><a href="/categories/rimmod" class="">Rimworld Modding A-Z ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
-<!--Below things are related Review-->
-        <span class="nav__sub-title">Review</span>
+<!--Below things are related Game Review-->
+        <span class="nav__sub-title">Game Review</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Game List" %}
+                    <li><a href="/categories/gamelist" class="">Game List ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+<!--Below things are related Product Review-->
+        <span class="nav__sub-title">Product Review</span>
 <!--Below things are related Etc-->
         <span class="nav__sub-title">Etc</span>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Blog" %}
-                    <li><a href="/categories/blogdev" class="">Blog 개발 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/blogdev" class="">Blog Dev ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
