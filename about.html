@@ -7,69 +7,167 @@ classes: wide
 title: About
 ---
 
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
 <!-- 여기에 항목을 추가하세요 -->
-<hr> 
-<h4>Welcome mate! This page is my gallery</h4>
-<div>
-    <h2 style="color: #e28640;">Unity[C#]</h2><hr>
-    <span>
-        <a href="">
-            <img width="256" height="512" src="/assets/images/null_big.png" onmouseover="this.src='/assets/images/over_big.png';" onmouseout="this.src='/assets/images/null_big.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img width="256" height="512" src="/assets/images/null_big.png" onmouseover="this.src='/assets/images/over_big.png';" onmouseout="this.src='/assets/images/null_big.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img width="256" height="512" src="/assets/images/null_big.png" onmouseover="this.src='/assets/images/over_big.png';" onmouseout="this.src='/assets/images/null_big.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img width="256" height="512" src="/assets/images/null_big.png" onmouseover="this.src='/assets/images/over_big.png';" onmouseout="this.src='/assets/images/null_big.png';" alt="Button" title="Title"/>
-        </a>
-    <br><br>
-    
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-    </span>
+<hr width="100%"/>
+<body>
+    <div class="main_image">
+        <div class="cover_image">
+            <img src="/assets/images/1400x200.png" style="max-width: 100%; height: auto;">
+            <h1 class="cover_image_text" style="font-size: x-large;">생각하는 대로 살지 않으면 결국에는 사는대로 생각하게 된다.</h1>      
+        </div>
+        <div class="hover_info">
+            <h1 class="hover_info_text" style="font-size: x-large;">One must live the way one thinks or end up thinking the way one has lived.</h1>
+        </div>
+    </div>
 
-    <h2 style="color: #e28640;">Rimworld Game Modding[C#]</h2><hr>
-    <span>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-    <br><br>
+    <!-- 여기는 프로필 -->
+    <div>
+        <div class="profile_layout">
+            <div class="profile_image" style="display: inline-block; vertical-align:top;">
+                <img src="/assets/images/profile.png" style="max-width: 100%; height: auto;" >
+            </div>
+                <div class="profile_address" style="display: inline-block; margin-left: 30px; width: 70%;">
+                    <h3 style="color: #F26700;">지영준 (Victor Ji)</h3>
+                    <hr width="100%"/>
+                        <li>
+                            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
+                            <span itemprop="name">{{ author.location }}</span>
+                        </li>
+       
+                        <li>
+                            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
+                            <a href="mailto:{{ author.email }}" style="color: white;">fatiger92@gmail.com</a>
+                        </li>
+          
+                        <li>
+                            <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+                            <a href="{{ author.github }}" style="color: white;">https://github.com/fatiger92</a>
+                        </li>   
+               
+                        <li>
+                            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+                            <a href="https://www.linkedin.com/in/youngjun-ji-975547262/" style="color: white;">https://www.linkedin.com/in/youngjun-ji-975547262/</a>
+                        </li>
+                </div>
+        </div>
+    </div>
 
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-        <a href="">
-            <img src="/assets/images/null_small.png" onmouseover="this.src='/assets/images/over_small.png';" onmouseout="this.src='/assets/images/null_small.png';" alt="Button" title="Title"/>
-        </a>
-    </span>
+    <!-- 포트 폴리오 -->
+    <h2 style="color: #e28640;">Unity[C#]</h2>
+    <hr width="100%"/>
+        <div>
+            <div class="gallery_big">
+                <div class="img">
+                    <img src="/assets/images/null_big.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                        <img src="/assets/images/And256x315.png" class="icon">
+                        <img src="/assets/images/Apple256x315.png" class="icon">
+                    </span>
+                </div>
+            </div>
 
+            <div class="gallery_big">
+                <div class="img">
+                    <img src="/assets/images/null_big.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                        <img src="/assets/images/And256x315.png" class="icon">
+                        <img src="/assets/images/Apple256x315.png" class="icon">
+                    </span>
+                </div>
+            </div>
 
-</div>
+            <div class="gallery_big">
+                <div class="img">
+                    <img src="/assets/images/null_big.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                        <img src="/assets/images/And256x315.png" class="icon">
+                        <img src="/assets/images/Apple256x315.png" class="icon">
+                    </span>
+                </div>
+            </div>
+
+            <div class="gallery_big">
+                <div class="img">
+                    <img src="/assets/images/null_big.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                        <img src="/assets/images/And256x315.png" class="icon">
+                        <img src="/assets/images/Apple256x315.png" class="icon">
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <hr width="100%"/>
+        <h2 style="color: #e28640;">Rimworld Modding[C#, Xml]</h2>
+        <hr width="100%"/>
+        <div>
+            <div class="gallery_small">
+                <div class="img">
+                    <img src="/assets/images/null_small.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gallery_small">
+                <div class="img">
+                    <img src="/assets/images/null_small.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gallery_small">
+                <div class="img">
+                    <img src="/assets/images/null_small.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="gallery_small">
+                <div class="img">
+                    <img src="/assets/images/null_small.png" style="max-width: 100%; height: auto;" alt="Hover Effect">
+                </div>
+                <div class="info" style="cursor:pointer" onclick="location.href=''">
+                    <h3>Comming Soon</h3>
+                    <p>Description Here</p>
+                    <span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <hr width="100%"/>
+</body>

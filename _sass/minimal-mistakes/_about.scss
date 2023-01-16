@@ -1,0 +1,289 @@
+.main_image{
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cover_image_text{
+    margin: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white-color;
+    width: 90%;
+    text-align: center;
+}
+
+.main_image .hover_info_text
+{
+    margin: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $tiger-color;
+    width: 90%;
+    text-align: center;
+}
+
+.main_image .hover_info{
+    position: absolute; left: 0; bottom: 0;
+    background: #fff;
+    font-family: $Cool;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+    padding: 20px;
+}
+
+.main_image .hover_info:before
+{
+    content: '';
+    display: block;
+
+    position: absolute;
+    left: 0; right:0; top:0; bottom:0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+.main_image .hover_info:after
+{
+    content: '';
+    display: block;
+
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+
+.main_image:hover .hover_info {
+opacity: 1;
+}
+
+.profile_layout {
+    margin: 10%;
+}
+.profile_layout h3
+{
+    margin-top: 2%;
+}
+
+ .profile_layout .profile_address li
+ {
+    list-style:none;
+    margin-bottom: 10px;
+ }
+
+ .profile_layout .profile_address a
+ {
+    display: inline-block;
+    color: inherit;
+    font-size: $type-size-6;
+    text-decoration: none;
+
+    &:hover {
+      // 색상 변경은 딜레이가 존재해서 너무 느림.
+      //color: $primary-color;
+      text-decoration: underline solid #F26700;
+    }
+ }
+
+.profile_image {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.gallery_big {
+  float: left;
+  position: relative;
+  width: 256px;
+  height: 512px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
+.gallery_big span{
+    display: inline-block;
+    text-align: center;
+}
+
+.gallery_big .icon{
+    white-space: normal;
+    width: 15%;
+    height: 7.5%;
+}
+
+.gallery_big .info {
+  color: #fff;
+  position: absolute; left: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  font-family: $Cool;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+  padding: 20px;
+}
+
+.gallery_big .info:before{
+    content: '';
+    display: block;
+    width: calc(100%);
+    height: calc(100%);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0; right:0; top:0; bottom:0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+.gallery_big .info:after{
+    content: '';
+    display: block;
+    width: calc(100%);
+    height: calc(100%);
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+.gallery_big:hover .info {
+  opacity: 1;
+}
+
+.gallery_big:hover .info:before{
+    height: calc(100% - 20px);
+}
+
+.gallery_big:hover .info:after{
+    width: calc(100% - 20px);
+}
+
+.gallery_big .info h3 {
+  font-size: 24px;
+  font-family: $Cool;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  text-transform: uppercase;
+  margin: auto;
+}
+.gallery_big .info p {
+  font-size: 20px;
+  font-family: $Cool;
+  text-overflow: ellipsis;
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+.gallery_small
+{
+    float: left;
+    position: relative;
+    width: 256px;
+    height: 256px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+.gallery_small span{
+    display: inline-block;
+    text-align: center;
+}
+
+.gallery_small .icon{
+    white-space: normal;
+    width: 15%;
+    height: 7.5%;
+}
+
+.gallery_small .info {
+  color: #fff;
+  position: absolute; left: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  font-family: $Cool;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+  padding: 20px;
+}
+
+.gallery_small .info:before{
+    content: '';
+    display: block;
+    width: calc(100%);
+    height: calc(100%);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0; right:0; top:0; bottom:0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+.gallery_small .info:after{
+    content: '';
+    display: block;
+    width: calc(100%);
+    height: calc(100%);
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+.gallery_small:hover .info {
+  opacity: 1;
+}
+
+.gallery_small:hover .info:before{
+    height: calc(100% - 20px);
+}
+
+.gallery_small:hover .info:after{
+    width: calc(100% - 20px);
+}
+
+.gallery_small .info h3 {
+  font-size: 24px;
+  font-family: $Cool;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  text-transform: uppercase;
+  margin: auto;
+}
+.gallery_small .info p {
+  font-size: 20px;
+  font-family: $Cool;
+  text-overflow: ellipsis;
+  white-space: normal;
+  text-transform: uppercase;
+}
