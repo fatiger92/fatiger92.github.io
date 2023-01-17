@@ -154,9 +154,20 @@
     font-size: $type-size-3;
     color: $tiger-mix-color;
 }
+
+.work_experience_layout span h3 {
+    margin-top: 2%;
+    font-family: $Cool;
+    font-size: 0.85em;
+}
+
 .work_experience_layout p {
     font-family: $Cool;
     font-size: $type-size-6;
+}
+
+.in {
+    text-indent: 30px;
 }
 
 /* Education */
