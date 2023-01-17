@@ -117,7 +117,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fatiger92"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedi"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/youngjun-ji-975547262/
     # - label: "Website"
       #icon: "fas fa-fw fa-link"
@@ -139,7 +139,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fatiger92"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedi"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/youngjun-ji-975547262/
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"

@@ -23,35 +23,145 @@ title: About
         </div>
     </div>
 
-    <!-- 여기는 프로필 -->
+    <!-- Profile -->
     <div>
         <div class="profile_layout">
             <div class="profile_image" style="display: inline-block; vertical-align:top;">
                 <img src="/assets/images/profile.png" style="max-width: 100%; height: auto;" >
             </div>
-                <div class="profile_address" style="display: inline-block; margin-left: 30px; width: 70%;">
-                    <h3 style="color: #F26700;">지영준 (Victor Ji)</h3>
-                    <hr width="100%"/>
-                        <li>
-                            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
-                            <span itemprop="name">{{ author.location }}</span>
-                        </li>
-       
-                        <li>
-                            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
-                            <a href="mailto:{{ author.email }}" style="color: white;">fatiger92@gmail.com</a>
-                        </li>
-          
-                        <li>
-                            <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-                            <a href="{{ author.github }}" style="color: white;">https://github.com/fatiger92</a>
-                        </li>   
-               
-                        <li>
-                            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
-                            <a href="https://www.linkedin.com/in/youngjun-ji-975547262/" style="color: white;">https://www.linkedin.com/in/youngjun-ji-975547262/</a>
-                        </li>
-                </div>
+            <div class="profile_address" style="display: inline-block; margin-left: 30px; width: 70%;">
+                <h3>지영준 (Victor Ji)</h3>
+                <hr width="100%"/>
+                    <li>
+                        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
+                        <span itemprop="name">{{ author.location }}</span>
+                    </li>
+    
+                    <li>
+                        <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
+                        <a href="mailto:{{ author.email }}" style="color: white;">fatiger92@gmail.com</a>
+                    </li>
+        
+                    <li>
+                        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+                        <a href="{{ author.github }}" style="color: white;">https://github.com/fatiger92</a>
+                    </li>   
+            
+                    <li>
+                        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/youngjun-ji-975547262/" style="color: white;">https://www.linkedin.com/in/youngjun-ji-975547262/</a>
+                    </li>
+            </div>
+        </div>
+    </div>
+
+    <hr width="100%" />
+    <!-- Introduce -->
+    <div>
+        <div class="introduce_layout">
+            <h2>📌 Introduce</h2>
+            <p>현재 현업에서 <strong>유니티 개발자의 길</strong>을 걷고 있는 병아리 개발자 <strong>Victor</strong> 입니다.
+            </p>
+            <p>압도적인 실력을 쌓기 위해 <strong>편식하지 않고 모든 것을 섭취하는 잡식성</strong>입니다.
+            </p>
+            <p>그렇기에 항상 마음을 열고, 새로운 것을 받아 들일 준비를 하고 있으며, 물론 자신의 실력도 중요하지만 <strong>동료들과 생각을 공유하여 그것을 효율적으로 사용하기 위해 연구하는 것</strong>을 더 좋아합니다.
+            </p>
+            <p>인간은 망각의 동물이라고 생각하기 때문에, <strong>항상 노션에 개발일지 또는 메모를 작성</strong>하고 있습니다.
+            </p>
+            <p><strong>&quot;생각하는 대로 살지 않으면 결국에는 사는 대로 생각하게 된다.&quot;</strong> 라는 명언을 인생의 모토로 살고 있습니다.
+            </p>
+            <p>따라서 <strong>매사에 계획을 세우는 편이며, 만약 세운 계획이 제대로 수행되지 않는다고 해도 유연하게 대처하는 임기응변</strong>에 강한 편입니다.
+            </p>
+            <p>개발 관련 컨퍼런스, 세미나 또는 커뮤니티에도 관심이 많고 저의 지식을 공유하는 것을 좋아합니다.
+            </p>
+            <small>📝Last Update  </small><span style="background-color: gray; color: yellow; font-size: small;">2022.01.17</span>
+        </div>
+    </div>
+
+    <hr width="100%" />
+    <!-- Skill -->
+    <div>
+        <div class="skill_layout">
+            <h2>💻 Skill</h2>
+            <p> 3️⃣: 주력으로 하는 언어, 자신이 있음</p>
+            <p> 2️⃣: 개발에 사용해 본 경험이 있고, 어느정도 응용가능함</p>
+            <p> 1️⃣: 제대로 이해하지 못하고, 사용만 해본 경험</p>
+            <p> 0️⃣: 배울 계획이 있는 것</p>
+            
+            <table>
+                <tr>
+                    <td style="width: 200px;">
+                        <strong>Game Engine<strong>
+                    </td>
+                    <td style="width: 150px;">3️⃣ Unity 3D</td>
+                    <td style="width: 150px;">0️⃣ Unreal</td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Programming Language<strong>
+                    </td>
+                    <td>3️⃣ C#</td>
+                    <td>1️⃣ C++</td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td>2️⃣ HTML</td>
+                    <td>2️⃣ CSS</td>
+                    <td style="width: 150px;">1️⃣ Ruby</td>
+                    <td style="width: 150px;">1️⃣ Liquid</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1️⃣ Kotlin</td>
+                    <td>0️⃣ Dart</td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>ETC</strong>
+                    </td>
+                    <td>2️⃣ Git</td>
+                    <td>2️⃣ SVN</td>
+                    <td style="width: 150px;">1️⃣ Jenkins</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <hr width="100%" />
+    <div>
+        <div Class="work_experience_layout">
+            <h2>🧬 Work Experience</h2>
+            <span>
+            <p><strong>[블루포션게임즈 - 에오스 레드 클라이언트 개발](모바일)</strong> :: 2021.09 - 2023.01 (현재)</p>
+            <p>📍 뭐하는 곳 인지 여기에 작성</p>
+            <p>🔧 뭐 했는지 여기에 작성</p>
+            </span>
+            
+            <span>
+            <p><strong>[뱅코 - 유니티 3D 엔진 게임 개발](모바일,VR)</strong> :: 2020.10 - 2021.09</p>
+            <p>📍 뭐하는 곳 인지 여기에 작성</p>
+            <p>🔧 뭐 했는지 여기에 작성</p>
+            </span>
+        </div>
+    </div>
+
+    <hr width="100%" />
+    <div>
+        <div Class="education_layout">
+            <h2>📚 Education</h2>
+            <p><strong>[Imagine collage - Cookery Cert3, Cert4]</strong> :: 2018.03 - 2020.02 </p>
+            <p><strong>[신안산대학교 - 컴퓨터정보과]</strong> :: 2011.03 - 2016.02 </p>
+        </div>
+    </div>
+    <hr width="100%" />
+
+    <div>
+        <div Class="seminar_layout">
+            <h2>🕵️‍♀️세미나 & 컨퍼런스 참가 내용</h2>
+            <P><strong>[SEOUL VRAR EXPO 2020 서울 가상 증강현실 박람회]</strong> :: 2020.08.13 - 2020.08.15</P>
+            <P><strong>[NAVER DEVELOPER OPEN CLASS]</strong> :: 2020.07.17 - 2020.08.21</P>
+            <P><strong>[2시간에 끝내는 게임개발 A to Z]</strong> :: 2020.07.09</P>
+            <p></p>
         </div>
     </div>
 

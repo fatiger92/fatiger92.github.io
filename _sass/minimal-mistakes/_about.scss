@@ -64,13 +64,13 @@
     transition: 0.3s;
 }
 
-
 .main_image:hover .hover_info {
 opacity: 1;
 }
 
+/* Profile */
 .profile_layout {
-    margin: 10%;
+    margin-top: 20%; margin-left : 5%; margin-right: 5%;
 }
 .profile_layout h3
 {
@@ -101,6 +101,97 @@ opacity: 1;
     width: 200px;
     height: auto;
     text-align: center;
+}
+
+/* Introduce */
+
+.introduce_layout {
+    margin-left : 5%; margin-right: 5%;
+}
+
+.introduce_layout h2 {
+    margin: auto;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+
+.introduce_layout p {
+    font-family: $Cool;
+    font-size: $type-size-6;
+}
+
+.introduce_layout strong {
+    font-family: $Cool;
+    font-size: $type-size-4;
+    font-weight: bold;
+    color: $tiger-color;
+}
+
+.introduce_layout small{
+    font-size: small;
+}
+
+/* Skill */
+.skill_layout {
+    margin-left : 5%; margin-right: 5%;
+}
+
+.skill_layout h2 {
+    margin: auto;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+
+.skill_layout p {
+    font-family: $Cool;
+    font-size: $type-size-6;
+}
+
+/* WorkExperience */
+.work_experience_layout {
+    margin-left : 5%; margin-right: 5%;
+}
+.work_experience_layout h2 {
+    margin: auto;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+.work_experience_layout p {
+    font-family: $Cool;
+    font-size: $type-size-6;
+}
+
+/* Education */
+.education_layout {
+    margin-left : 5%; margin-right: 5%;
+}
+.education_layout h2 {
+    margin: auto;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+.education_layout p {
+    font-family: $Cool;
+    font-size: $type-size-6;
+}
+
+/* Seminar & Conference*/
+.seminar_layout {
+    margin-left : 5%; margin-right: 5%;
+}
+.seminar_layout h2 {
+    margin: auto;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+.seminar_layout p {
+    font-family: $Cool;
+    font-size: $type-size-6;
 }
 
 .gallery_big {
