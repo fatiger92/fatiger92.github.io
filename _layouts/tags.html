@@ -34,9 +34,10 @@ layout: archive
           {% for post in tag.last %}
           <article class="archive-item">
             <div>
-                <span>
-                  <a href="{{ post.url }}">{{post.title}}</a>&nbsp
-                </span>
+                <large style="color: #F26700">
+                    {{ forloop.index | append: "." }}
+                    <a href="{{ post.url }}">{{post.title}}</a>&nbsp
+                </large>
                 <small> 
                   <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i>{{ post.date | date: " %Y.%m.%d" }}
                   {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
