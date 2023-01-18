@@ -216,6 +216,23 @@
     font-size: $type-size-6;
 }
 
+/* Project */
+
+.project_layout h2 {
+    margin: auto;
+    padding-left : 5%; padding-right: 5%;
+    font-family: $Cool;
+    font-size: $type-size-3;
+    color: $tiger-mix-color;
+}
+
+.project_layout h3 {
+    text-align: center;
+    font-family: $Cool;
+    font-size: $type-size-4;
+    color: $necktie-color;
+}
+
 .gallery_big {
   float: left;
   position: relative;
