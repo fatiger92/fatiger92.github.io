@@ -473,7 +473,7 @@
     color: inherit;
     font-size: $type-size-4;	
     font-family: $Silla_Culture;	
-    color: mix(#fff,$primary-color,80%);	
+    color: $necktie-color;	
     &:hover {	
       text-decoration: underline;	
     }
@@ -529,7 +529,6 @@
   font-family: $Silla_Culture;
   font-size: $type-size-3;
   color: $primary-color;
-  //font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
