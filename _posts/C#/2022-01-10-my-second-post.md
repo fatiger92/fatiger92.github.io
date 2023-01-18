@@ -1,5 +1,5 @@
 ---
-title:  "C# 테스트 포스트"
+title:  "C# 테스트 페이지"
 excerpt: "정말 처음이에요 드디어 깃페이지 블로그를 완성했다."
 
 categories:
