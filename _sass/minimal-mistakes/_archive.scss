@@ -29,7 +29,20 @@
   a[rel="permalink"] {
     position: static;
   }
+
+
 }
+
+large,
+.large {
+  font-size: $type-size-6;
+}
+
+large,
+.large a {
+  font-family: $Cool;
+}
+
 
 .archive__subtitle {
   margin: 0.8em 0 0em;
