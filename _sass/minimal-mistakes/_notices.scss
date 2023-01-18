@@ -96,6 +96,10 @@
   @include notice($warning-color);
 }
 
+.notice--warning a {
+  color: $necktie-color
+}
+
 /* Success notice */
 
 .notice--success {

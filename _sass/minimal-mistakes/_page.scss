@@ -55,8 +55,12 @@ body {
     width: 100%;
     clear: both;
 
+    .page__meta
+    {
+      font-size: small;
+    }
+
     .page__content,
-    .page__meta,
     .page__share {
       position: relative;
       float: left;
@@ -109,7 +113,10 @@ body {
 		}
 	}
 
-  p,
+  p {
+    margin: auto;
+    font-size: $type-size-6;
+  }
   li,
   dl {
     font-size: 1em;
@@ -274,7 +281,7 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
   text-transform: uppercase;
 }
 
@@ -309,6 +316,7 @@ body {
 
 .page__taxonomy {
   margin-top: -10px;
+  font-size: small;
   .sep {
     display: inline;
   }

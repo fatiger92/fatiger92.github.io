@@ -18,6 +18,7 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+
 // Custom Property
 /*
 #000000 검은색
@@ -38,6 +39,9 @@ $notebook-color: #757575 !default;
 
 $text-title-color: mix(#fff, $primary-color, 30%) !default;
 $link-highlight-color: #009100 !default;
+$text-highlight-color: #af8000;
+
+$warning-color : #FFFFFF;
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
