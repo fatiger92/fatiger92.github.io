@@ -1,5 +1,5 @@
 ---
-title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 2."
+title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 2. 프로젝트 세팅"
 excerpt: "Unity Lesson 1"
 
 categories:
