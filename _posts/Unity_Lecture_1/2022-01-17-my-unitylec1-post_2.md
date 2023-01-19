@@ -74,8 +74,9 @@ last_modified_at: 2022-01-19
 
 <br>
 
-# 주저리
-  계속해서 무언가를 도전하고 만드는 것을 멈추지 말자.
+# 오늘의 한마디
+  
+  <span style="color:crimson; font-size:15pt; font-weight:bold">계속해서 무언가를 도전하고 만드는 것을 멈추지 말자.</span>
 
 <br>
 
