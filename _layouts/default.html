@@ -26,6 +26,17 @@ classes: wide
           ::-webkit-scrollbar-thumb:hover {background: #F26700;}
           ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment { width:12px;height:12px;background:transparent;} 
         </style>
+
+    <script>
+    function clickEffect(e){
+    var d=document.createElement("div");
+    d.className="clickEffect";
+    d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+    document.body.appendChild(d);
+    d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+    }
+      document.addEventListener('click',clickEffect);	
+    </script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
