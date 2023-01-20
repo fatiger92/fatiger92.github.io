@@ -58,12 +58,13 @@ large,
 }
 
 .archive__item-title {
-  margin-bottom: 0.9em;
+  margin-top: 0.5em;
+  margin-bottom: auto;
   font-family: $Cool;
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
