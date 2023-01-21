@@ -16,16 +16,16 @@ last_modified_at: 2022-01-19
 # 개발 블로그
 <hr>
 
-## 1. [🚀Tsubaki_t1 블로그 바로가기](https://tsubakit1.hateblo.jp/)  
+1. [🚀Tsubaki_t1 블로그 바로가기](https://tsubakit1.hateblo.jp/)  
+   <p style="font-size:12pt"> 👉일어로 되어있음 </p>
 
-- 일어로 되어있음
 
 <br>
 
 # 개발 용어 일어 모음
 <hr>
 
-## 1. [🚀개발자를 위한 일본어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chansury&logNo=120045278959)
+1. [🚀개발자를 위한 일본어](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chansury&logNo=120045278959)
 
 <br>
 
