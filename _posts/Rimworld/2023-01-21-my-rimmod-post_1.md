@@ -8,8 +8,8 @@ tags:
   - [Rimworld]
 toc: true
 toc_sticky: true
-date: 2022-01-21
-last_modified_at: 2022-01-21
+date: 2023-01-21
+last_modified_at: 2023-01-21
 ---
 
 Youtuber <strong style="color:orange;"> Eck314님의 How to Make a RimWorld Mod - Step by Step</strong>  영상을 보고 정리한 게시글입니다.

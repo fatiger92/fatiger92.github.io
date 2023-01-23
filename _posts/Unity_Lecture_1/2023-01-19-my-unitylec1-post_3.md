@@ -8,8 +8,8 @@ tags:
   - [Unity Lesson 1]
 toc: true
 toc_sticky: true
-date: 2022-01-19 
-last_modified_at: 2022-01-19
+date: 2023-01-19 
+last_modified_at: 2023-01-19
 ---
 
 인프런에 있는 Rookiss님의 **[실전 게임 코드 리뷰] 유니티 클리커 게임** 강의를 듣고 정리한 게시글입니다.
