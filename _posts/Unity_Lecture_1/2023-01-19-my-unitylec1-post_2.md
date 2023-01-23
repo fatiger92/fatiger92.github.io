@@ -37,7 +37,7 @@ last_modified_at: 2022-01-19
   그리고 <strong style="color:greenyellow">SkeletonGraphic(UI)</strong> 를 선택하면 스파인 오브젝트가 생성되는데, 아래와 같이 <strong style="color:greenyellow">SkeletonAnmation 컴포넌트도 자동으로 추가</strong> 된다.   
   이 컴포넌트가 스파인 오브젝트를 조작하기 위한 핵심 컴포넌트다.
   
-  ![lecture_1](/assets/images/posts/Unity_Lecture_1/2022-01-19-my-unitylec1-post_2/1.png)
+  ![lecture_1](/assets/images/posts/Unity_Lecture_1/2023-01-19-my-unitylec1-post_2/1.png)
 
   <span style="color:violet; font-size:15pt; font-weight:bold"> 주목해야 할 속성은 노란색으로 칠한 부분이다.</span>
 
