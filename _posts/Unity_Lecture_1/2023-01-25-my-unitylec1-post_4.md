@@ -60,7 +60,7 @@ UI Scale Mode에 따라 설정해야 하는 속성이 달라지고 캔버스에�
   | Default Sprite DPI | ‘Pixels Per Unit’ 설정이 ‘Reference Pixels Per Unit’ 설정과 일치하는 스프라이트에 사용할 인치당 픽셀(DPI)이다. |
   | Reference Pixels Per Unit | 스프라이트에 ‘Pixels Per Unit’ 설정이 있는 경우 DPI는 ‘Default Sprite DPI’ 설정과 일치한다. |
 
-## 📑 Canvas 컴포넌트가 World Space로 설정된 경우 표시되는 World Space Canvas 설정:
+## 📑 Canvas 컴포넌트가 World Space인 경우 표시되는 World Space Canvas 설정:
 
   |**프로퍼티:**|**기능:**|
   |------|---|
