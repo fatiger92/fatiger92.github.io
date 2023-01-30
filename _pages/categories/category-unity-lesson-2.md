@@ -1,5 +1,5 @@
 ---
-title: "유니티 강의 -1-"
+title: "C#과 유니티로 만드는 MMORPG 게임 개발 시리즈"
 layout: archive
 permalink: categories/unity-lesson-2
 author_profile: true

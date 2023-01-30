@@ -1,5 +1,5 @@
 ---
-title: "유니티 강의 -1-"
+title: "실전 게임 코드 리뷰 :: 유니티 클리커 게임"
 layout: archive
 permalink: categories/unity-lesson-1
 author_profile: true
