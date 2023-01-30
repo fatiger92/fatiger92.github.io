@@ -114,7 +114,16 @@
         </ul>
 <!--Below things are related Product Review-->
         <span class="nav__sub-title">Product Review</span>
-<!--Below things are related Product Review-->
+<!--Below things are related Financial Information-->
+        <span class="nav__sub-title">Financial Info</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Savings" %}
+                    <li><a href="/categories/savings" class="">적금 정보 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+<!--Below things are related Hobby-->
         <span class="nav__sub-title">Hobby</span>
 <!--Below things are related Etc-->
         <span class="nav__sub-title">Etc</span>
