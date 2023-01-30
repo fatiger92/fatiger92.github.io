@@ -125,6 +125,13 @@
         </ul>
 <!--Below things are related Hobby-->
         <span class="nav__sub-title">Hobby</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Boxing" %}
+                    <li><a href="/categories/boxing" class="">Boxing ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 <!--Below things are related Etc-->
         <span class="nav__sub-title">Etc</span>
         <ul>
