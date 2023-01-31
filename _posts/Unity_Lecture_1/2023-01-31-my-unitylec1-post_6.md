@@ -28,7 +28,7 @@ last_modified_at: 2023-01-31
 생성 순서가 궁금해서 무식하게 전부 로그를 찍어 보았다.  
 아래의 이미지에서 알 수 있듯이 BaseScene -> Manager들 생성 -> GameScene 순서로 진행된다고 볼 수 있다.
 
-![img01](/assets/images/posts/Unity_Lecture_1/2023-01-30-my-unitylec1-post_6/1.png)
+![img01](/assets/images/posts/Unity_Lecture_1/2023-01-31-my-unitylec1-post_6/1.png)
 
 ## 🔖 BaseScene.cs
 ```c#
@@ -73,7 +73,7 @@ Scene간의 이동도 없기 때문에 딱히 EventSystem이 날아 가는 경�
 
 ## 🔖 BaceScene.cs 관련 질문에 대한 답변
 
-![img02](/assets/images/posts/Unity_Lecture_1/2023-01-30-my-unitylec1-post_6/2.png)
+![img02](/assets/images/posts/Unity_Lecture_1/2023-01-31-my-unitylec1-post_6/2.png)
 
 그렇다고 하셨다.
 
@@ -190,7 +190,7 @@ private static void Init()
 
 ## 🔖 Manager.cs 에 관련 질문에 대한 답변
 
-![img03](/assets/images/posts/Unity_Lecture_1/2023-01-30-my-unitylec1-post_6/3.png)
+![img03](/assets/images/posts/Unity_Lecture_1/2023-01-31-my-unitylec1-post_6/3.png)
 
 라고 하셨다.
 
