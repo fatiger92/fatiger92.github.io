@@ -1,5 +1,5 @@
 ---
-title:  "매개변수(Parameter)와 인수, 인자, 전달 인자(Argument)의 차이점?"
+title:  "Big O 표기법이 뭔지 도저히 몰라서 팝핀 댄스를 추고 싶을 때 보려고 쓴 글"
 excerpt: "와우"
 
 categories:
@@ -57,14 +57,6 @@ Parameter가 매개변수라고요.
 <br>
 
 <strong style="color:yellow; font-size:100pt;">끝</strong>
-
-<br>
-
-# 🔎 참고한 블로그
-<hr style="width:100%" />
-
-[🔔 프로그래머 YD님 블로그](https://7942yongdae.tistory.com/155)
-{: .notice--warning}
 
 
 <hr style="width:100%" />
