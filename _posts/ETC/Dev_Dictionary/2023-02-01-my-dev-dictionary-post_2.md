@@ -196,6 +196,21 @@ O(log n)의 그래프의 모습은 아래와 같다.
 그리고 이것은 선형 검색 알고리즘보다는 빠르다.
 하지만 이진 검색에는 조건이 존재하는데, 그 조건은 정렬되지 않은 배열엔 사용할 수 없다는 것이다.
 
+# 시간 복잡도를 줄이는 방법?
+
+    1. 시간 복잡도에서 반복문이 시간 소모에 가장 큰 영향을 미치기 때문에, 반복문의 숫자를 줄이는 것이다.  
+    2. 자료구조를 적절하게 이용한다.
+    3. 알고리즘을 적절하게 이용한다.
+
+
+## 자료구조 시간 복잡도 표
+
+![img07](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/7.png){: width="100%" height="50%"}
+
+## 알고리즘 시간 복잡도 표
+
+![img08](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/8.png){: width="100%" height="50%"}
+
 <br>
 
 # 🎯 총정리 그래프
@@ -203,14 +218,15 @@ O(log n)의 그래프의 모습은 아래와 같다.
 
 마지막으로 이 그래프를 확인해보자.
 
-![img07](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/7.png){: width="50%" height="50%"}
+![img09](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/9.png){: width="50%" height="50%"}
 
 <strong style="color:orange; font-size:20pt">✨ O(1) < O(log n) < O(n) < O(n²) ✨</strong>
 
 # 🔎 참고한 내용
 <hr style="width:100%" />
 
-[🔔 노마드 코더 Nomad Coders 님의 Big O 설명 10분 컷 영상](https://youtu.be/BEVnxbxBqi8)
+[🔔 노마드 코더 Nomad Coders 님의 Big O 설명 10분 컷 영상](https://youtu.be/BEVnxbxBqi8)<br>
+[🔔 코딩팩토리님의 블로그](https://coding-factory.tistory.com/608)
 {: .notice--warning}
 
 <br>
