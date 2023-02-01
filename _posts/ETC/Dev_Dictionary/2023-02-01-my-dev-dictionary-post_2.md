@@ -12,7 +12,7 @@ date: 2023-02-01
 last_modified_at: 2023-02-01
 ---
 
-# 이걸 왜 알아야 하죠?
+# 💡 이걸 왜 알아야 하죠?
 <hr style="width:100%" />
 
   물론 몰라도 상관없다.  
@@ -23,7 +23,7 @@ last_modified_at: 2023-02-01
 
 <br>
 
-# Big-O 표기법이 뭔가요? 
+# 💁‍♂️ Big-O 표기법이 뭔가요? 
 <hr style="width:100%" />
 
 빅 OOOOOOOOOOOOOOOOO 점근 표기법의 핵심은 시간 복잡도를 빠르게 설명할 수 있다는 것이다.  
@@ -43,7 +43,7 @@ last_modified_at: 2023-02-01
 
 <br>
 
-# 그래서 배우면 좋은 점이 뭐죠?
+# 💁‍♂️ 그래서 배우면 좋은 점이 뭐죠?
 <hr style="width:100%" />
 
 Big O를 이해하면, <strong style="color:orange">알고리즘 분석을 빠르게 할 수 있고 언제 무엇을 쓸지 빠르게 파악이 가능</strong>하다.
@@ -51,7 +51,7 @@ Big O를 이해하면, <strong style="color:orange">알고리즘 분석을 빠�
 그리고 시간복잡도를 표기함으로써 <strong style="color:orange">내가 만든 코드의 평가를 내릴 수 있다.</strong>
 왜냐하면 미래에 어떻게 작동할 지 알 수 있기 때문이다.
 
-## O(1)
+## 🔖 O(1)
 
 ```c#
 public void PrintFirstElement(int[] arr)
@@ -67,7 +67,7 @@ public void PrintFirstElement(int[] arr)
 
 이 메서드의 <strong style="color:limegreen">시간복잡도는 constant time(상수 시간)</strong> 이라고 할 수 있다.
 
-### 상수 시간 (constant time)
+### 📍 상수 시간 (constant time)
 
     상수 시간은 O(1)로도 표기하는데, 어떤 문제를 풀이할 때 필요한 수학적 연산 시간이 주어진 입력 자료에 관계 없이 일정할 때의 연산 시간을 의미한다.
 
@@ -102,7 +102,7 @@ A' code 의 시간 복잡도는 O(2)인걸까?
 
 결론적으로 위의 메서드에서 배열의 크기가 10, 100, 1000, 1000000000이 된다고 해도 시간 복잡도는 여전히 O(1)로 표기되는 것이다.
 
-## O(n)
+## 🔖 O(n)
 
 또 다른 시간 복잡도를 확인해보자
 
@@ -139,7 +139,7 @@ public void PrintAllElement(int[] arr)
 답은 아니다.
 2는 상수이기 때문에 날려버리고 O(N)으로 표현하게 된다.
 
-## O(n²)
+## 🔖 O(n²)
 
 또 다른 코드를 확인해보자.
 
@@ -160,7 +160,7 @@ public void PrintAllElement(int[] arr)
 
 따라서 위의 코드 보다는 선형 검색 알고리즘 시간 복잡도가 더 효율적인 것을 알 수 있다.
 
-## O(log n)
+## 🔖 O(log n)
 
 또 다른 시간 복잡도로는 로그 시간 (Logarithmic time) 이 있다.
 이것은 이진 검색 알고리즘을 설명할 때 쓰는 것이다.
@@ -198,7 +198,7 @@ O(log n)의 그래프의 모습은 아래와 같다.
 
 <br>
 
-# 총정리 그래프
+# 🎯 총정리 그래프
 <hr style="width:100%" />
 
 마지막으로 이 그래프를 확인해보자.
