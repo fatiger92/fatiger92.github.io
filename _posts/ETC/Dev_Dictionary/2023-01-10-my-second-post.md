@@ -1,15 +1,15 @@
 ---
-title:  "C# 테스트 페이지"
-excerpt: "정말 처음이에요 드디어 깃페이지 블로그를 완성했다."
+title:  "테스트 페이지"
+excerpt: "와우"
 
 categories:
-  - C Sharp
+  - Dev Dictionary
 tags:
-  - [C Sharp, jekyll, Github, Git]
+  - [Dev Dictionary]
 toc: true
 toc_sticky: true
-date: 2023-01-10
-last_modified_at: 2023-01-12
+date: 2023-02-01
+last_modified_at: 2023-02-01
 ---
 
 # Hello mate?  

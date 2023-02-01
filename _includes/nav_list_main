@@ -145,6 +145,13 @@
         <span class="nav__sub-title">Etc</span>
         <ul>
             {% for category in site.categories %}
+                {% if category[0] == "Dev Dictionary" %}
+                    <li><a href="/categories/dev-dictionary" class="">아무도 안 알려주는 개발 잡학사전 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
                 {% if category[0] == "Blog" %}
                     <li><a href="/categories/blogdev" class="">Blog Dev ({{category[1].size}})</a></li>
                 {% endif %}
