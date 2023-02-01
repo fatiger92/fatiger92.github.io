@@ -207,6 +207,11 @@ O(log n)의 그래프의 모습은 아래와 같다.
 
 <strong style="color:orange; font-size:20pt">✨ O(1) < O(log n) < O(n) < O(n²) ✨</strong>
 
+# 🔎 참고한 내용
+<hr style="width:100%" />
+
+[🔔 노마드 코더 Nomad Coders 님의 Big O 설명 10분 컷 영상](https://youtu.be/BEVnxbxBqi8)
+{: .notice--warning}
 
 <br>
 <strong style="color:yellow; font-size:100pt;">끝</strong>
