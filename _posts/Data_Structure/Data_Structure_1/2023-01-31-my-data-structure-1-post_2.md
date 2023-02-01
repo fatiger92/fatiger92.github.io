@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-01-31
-last_modified_at: 2023-01-31
+last_modified_at: 2023-02-01
 ---
 
 알라딘에 있는 Alex Lee님의 **C#으로 이해하는 자료구조** 책을 보고 공부하며 정리 및 요약한 게시글입니다.  
