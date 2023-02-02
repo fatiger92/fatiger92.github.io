@@ -84,16 +84,16 @@ public GameData SaveData { get { return _gameData; } set { _gameData = value; } 
 
 ```c#
 public enum JobTitleType
-	{
-		Intern = 0, // 인게임에 배치만 하고 아무것도 안함
-		Sinib, // 주인공 시작
-		Daeri,
-		Gwajang,
-		Bujang,
-		Esa,
-		Sajang,
-		Cat,
-	}
+{
+  Intern = 0, // 인게임에 배치만 하고 아무것도 안함
+  Sinib, // 주인공 시작
+  Daeri,
+  Gwajang,
+  Bujang,
+  Esa,
+  Sajang,
+  Cat,
+}
 ```
 
 총 8명이니 아래와 같이 작성되어 있다.
