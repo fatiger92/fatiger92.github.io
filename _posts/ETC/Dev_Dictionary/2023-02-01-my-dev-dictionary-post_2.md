@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-02-01
-last_modified_at: 2023-02-01
+last_modified_at: 2023-02-02
 ---
 
 # 💡 이걸 왜 알아야 하죠?
@@ -26,7 +26,10 @@ last_modified_at: 2023-02-01
 # 💁‍♂️ Big-O 표기법이 뭔가요? 
 <hr style="width:100%" />
 
-빅 OOOOOOOOOOOOOOOOO 점근 표기법의 핵심은 시간 복잡도를 빠르게 설명할 수 있다는 것이다.  
+빅 OOOOOOOOOOOOOOOOO 알고리즘의 성능을 수학적으로 표기해주는 표기법이다.
+이 표기법으로 알고리즘의 시간, 공간 복잡도를 표현할 수 있음.
+
+Big O는 알고리즘의 실제 러닝 타임이 아닌 데이터나 사용자의 증가율에 따른 알고리즘의 성능을 예측하는 것이 목표이기 때문에, 상수와 같은 숫자는 모두 무시한다.
 
 선형 검색(Linear search)을 예를 들어 설명할 것이다.   
 선형 검색은 하나씩 하나씩 검색을 한다.
@@ -51,12 +54,24 @@ Big O를 이해하면, <strong style="color:orange">알고리즘 분석을 빠�
 그리고 시간복잡도를 표기함으로써 <strong style="color:orange">내가 만든 코드의 평가를 내릴 수 있다.</strong>
 왜냐하면 미래에 어떻게 작동할 지 알 수 있기 때문이다.
 
-## 🔖 O(1)
+<br>
+
+# 💁 자 그러면 이제 Big O 들어간다 입을 O하고 벌려
+<hr style="width:100%" />
+
+## 🔖 O(1) Algorithms (constant time)
+
+데이터의 증가함에 따라 성능에 변함이 없음. 
+
+상수 시간이라고도 하는데, 어떤 문제를 풀이할 때 필요한 수학적 연산 시간이 주어진 입력 자료에 관계 없이 일정할 때의 연산 시간을 의미한다.
+
+[🔔 상수 시간 위키 설명](https://ko.wikipedia.org/wiki/%EC%83%81%EC%88%98_%EC%8B%9C%EA%B0%84)
+{: .notice--warning}
 
 ```c#
-public void PrintFirstElement(int[] arr)
+public void Method(int[] n)
 {
-    Console.WriteLine(arr[0]);
+    Console.WriteLine(n[0]);
 }
 ```
 
@@ -67,22 +82,13 @@ public void PrintFirstElement(int[] arr)
 
 이 메서드의 <strong style="color:limegreen">시간복잡도는 constant time(상수 시간)</strong> 이라고 할 수 있다.
 
-### 📍 상수 시간 (constant time)
-
-    상수 시간은 O(1)로도 표기하는데, 어떤 문제를 풀이할 때 필요한 수학적 연산 시간이 주어진 입력 자료에 관계 없이 일정할 때의 연산 시간을 의미한다.
-
 ![img02](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/2.png){: width="30%" height="30%"}
 
-[🔔 상수 시간 위키 설명](https://ko.wikipedia.org/wiki/%EC%83%81%EC%88%98_%EC%8B%9C%EA%B0%84)
-{: .notice--warning}
-
-상수 시간이라는 개념을 알았으니 이제 아래의 코드를 보자
-
 ```c#
-public void PrintFirstElement(int[] arr)
+public void Method(int[] n)
 {
-    Console.WriteLine(arr[0]);
-    Console.WriteLine(arr[0]);
+    Console.WriteLine(n[0]);
+    Console.WriteLine(n[0]);
 }
 ```
 
@@ -102,15 +108,15 @@ A' code 의 시간 복잡도는 O(2)인걸까?
 
 결론적으로 위의 메서드에서 배열의 크기가 10, 100, 1000, 1000000000이 된다고 해도 시간 복잡도는 여전히 O(1)로 표기되는 것이다.
 
-## 🔖 O(n)
+## 🔖 O(n) Algorithms (linear time)
 
-또 다른 시간 복잡도를 확인해보자
+데이터에 증가함에 따라 비례해서 처리시간도 늘어남.
 
 ```c#
-public void PrintAllElement(int[] arr)
+public void Method(int[] n)
 {
-    foreach (var n in arr)
-        Console.WriteLine(n);
+    foreach (var i in arr)
+        Console.WriteLine(i);
 }
 ```
 
@@ -125,12 +131,12 @@ public void PrintAllElement(int[] arr)
 그렇다면 이것은 어떨까?
 
 ```c#
-public void PrintAllElement(int[] arr)
+public void Method(int[] n)
 {
-    foreach (var n in arr)
+    foreach (var i in n)
         Console.WriteLine(n);
     
-    foreach (var n in arr)
+    foreach (var i in n)
         Console.WriteLine(n);
 }
 ```
@@ -139,16 +145,16 @@ public void PrintAllElement(int[] arr)
 답은 아니다.
 2는 상수이기 때문에 날려버리고 O(N)으로 표현하게 된다.
 
-## 🔖 O(n²)
+## 🔖 O(n²) Algorithms (quadratic time)
 
-또 다른 코드를 확인해보자.
+데이터가 커지면 커질 수록 처리시간이 기하급수로 올라감 to the moon.
 
 ```c#
-public void PrintAllElement(int[] arr)
+public void Method(int[] n)
 {
-    foreach (var n in arr)
-        foreach (var x in arr)
-            Console.WriteLine($"{x}{n}");
+    foreach (var i in n)
+        foreach (var j in n)
+            Console.WriteLine($"{i+j}");
 }
 ```
 이 코드는 배열의 각 아이템에 대하여 루프를 반복해서 실행한다.
@@ -160,7 +166,76 @@ public void PrintAllElement(int[] arr)
 
 따라서 위의 코드 보다는 선형 검색 알고리즘 시간 복잡도가 더 효율적인 것을 알 수 있다.
 
-## 🔖 O(log n)
+## 🔖 O(nm) Algorithms (quadratic time)
+
+코드와 그래프의 모양이 O(n²) Algorithms와 같아서 유의해서 표기 해야함.
+n 배열을 2번 돌리는게 아닌 m 배열을 n 배열 만큼 돌리는 것 이기 때문이 이것은 엄연히 다른 알고리즘이다.
+(n이 m보다 작을수도 클수도 있기 때문이다.)
+
+```c#
+public void Method(int[] n, int[] m)
+  {
+      foreach (var i in n)
+          foreach (var j in m)
+              Console.WriteLine($"{i+j}");
+  }
+```
+ 
+![img03-1](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-1.png){: width="30%" height="30%"}
+
+## 🔖 O(n³) Algorithms (polynomial / cubic time)
+
+[이해를 쉽게하기 위한 이미지]
+
+![img03-2](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-2.png){: width="50%" height="50%"}
+
+```c#
+public static void Method(int[] n)
+    {
+        foreach (var i in n)
+            foreach (var j in n)
+                foreach (var k in n)    
+                    Console.WriteLine($"{i+j+k}");
+    }
+```
+
+O(n³) Algorithms는 그래프에서 O(n²) Algorithms와 비슷한 양상을 보이지만 처리시간의 증가가 더 급격하게 일어난다.
+
+![img03-3](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-3.png){: width="30%" height="30%"}
+
+## 🔖 O(2ⁿ) Algorithms (exponential time)
+
+Fibonacci 수열 - 1 부터 시작해서 한면을 기준으로 정사각형을 만드는 것
+
+>Fibonacci 수열도 나중에 심도있게 다루겠음.
+
+이해를 쉽게하기 위한 이미지
+
+![img03-4](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-4.png){: width="50%" height="50%"}
+
+Fibonacci 수열을 재귀함수를 이용해서 코드를 작성하면 아래와 같이 된다.
+
+```c#
+public int Fibonacci(int n, int[] r)
+{
+    if (n <= 0)
+        return 0;
+    if (n == 1)
+        return r[n] = 1;
+
+    return r[n] = Fibonacci(n - 1, r) + Fibonacci(n - 2, r);
+}
+```
+
+작동 방식을 이미지로 표현하면 아래와 같음.
+
+![img03-5](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-5.png){: width="50%" height="50%"}
+
+그래프
+
+![img03-6](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/3-6.png){: width="30%" height="30%"}
+
+## 🔖 O(log n) Algorithms
 
 또 다른 시간 복잡도로는 로그 시간 (Logarithmic time) 이 있다.
 이것은 이진 검색 알고리즘을 설명할 때 쓰는 것이다.
@@ -173,7 +248,7 @@ public void PrintAllElement(int[] arr)
 
 이것을 Big O로 표현하면, O(log N)이 된다.
 
->이진 검색 알고리즘은 다음번에 심도있게 다룰 것임
+>이진 검색 알고리즘은 다음번에 심도있게 다룰 것임, 그 후에 코드를 올리겠음.
 
 로그(logarithm)는 지수(exponent)의 정 반대다.
 
@@ -196,18 +271,18 @@ O(log n)의 그래프의 모습은 아래와 같다.
 그리고 이것은 선형 검색 알고리즘보다는 빠르다.
 하지만 이진 검색에는 조건이 존재하는데, 그 조건은 정렬되지 않은 배열엔 사용할 수 없다는 것이다.
 
-# 시간 복잡도를 줄이는 방법?
+# 😩 시간 복잡도를 줄이는 방법?
 
     1. 시간 복잡도에서 반복문이 시간 소모에 가장 큰 영향을 미치기 때문에, 반복문의 숫자를 줄이는 것이다.  
     2. 자료구조를 적절하게 이용한다.
     3. 알고리즘을 적절하게 이용한다.
 
 
-## 자료구조 시간 복잡도 표
+## 🧨 자료구조 시간 복잡도 표
 
 ![img07](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/7.png){: width="100%" height="50%"}
 
-## 알고리즘 시간 복잡도 표
+## 🧨 알고리즘 시간 복잡도 표
 
 ![img08](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/8.png){: width="100%" height="50%"}
 
@@ -216,11 +291,13 @@ O(log n)의 그래프의 모습은 아래와 같다.
 # 🎯 총정리 그래프
 <hr style="width:100%" />
 
-마지막으로 이 그래프를 확인해보자.
+마지막으로 이 글을 머리 속에 박아버리고 그래프를 확인해보자.
+
+<strong style="color:Orange; font-size:20pt"> ✨✨Big O는 대충 살아서 상수 같은건 버려.✨✨ <strong>
+
+<br>
 
 ![img09](/assets/images/posts/ETC/Dev_Dictionary/2023-02-01-my-dev-dictionary-post_2/9.png){: width="50%" height="50%"}
-
-<strong style="color:orange; font-size:20pt">✨ O(1) < O(log n) < O(n) < O(n²) ✨</strong>
 
 # 🔎 참고한 내용
 <hr style="width:100%" />
