@@ -175,7 +175,10 @@ GameData 클래스로 묶어서 파일시스템을 이용해 SaveData.json 파�
 
 ![herolanding](https://media.giphy.com/media/xT0GqHJMxnHhLTEbYY/giphy.gif){: width="30%" height="30%"}
 
-> 이 두가지의 차이는 나중에 심도 있게 다루겠슴니당
+>이 두가지의 차이 관련 글은 아래 링크에서 확인
+
+[🔔JsonUtility vs Newtonsoft.Json](https://fatiger92.github.io/unitydocs/my-unitydoc-post_2/)
+{: .notice--warning}
 
 <br>
 
