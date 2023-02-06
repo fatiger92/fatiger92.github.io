@@ -1,5 +1,5 @@
 ---
-title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 7. 코드 리뷰 02 - Managers"
+title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 7. Managers - GameManager"
 excerpt: "Unity Lesson 1"
 
 categories:
@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-02-02
-last_modified_at: 2023-02-02
+last_modified_at: 2023-02-06
 ---
 
 인프런에 있는 Rookiss님의 **[실전 게임 코드 리뷰] 유니티 클리커 게임** 강의를 듣고 정리한 게시글입니다.
