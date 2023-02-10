@@ -1,5 +1,5 @@
 ---
-title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 9. Managers - ResourceManager"
+title:  "[실전 게임 코드 리뷰 :: 유니티 클리커 게임] 10. Managers - ResourceManager"
 excerpt: "Unity Lesson 1"
 
 categories:
