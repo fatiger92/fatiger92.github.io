@@ -24,7 +24,7 @@ last_modified_at: 2023-02-10
 
 ResourceManager의 차례다.
 
-해당 Manager는 Sprite 들과, spine이 제공하는 SkeletonDataAsset 데이터 클래스를 관리하는 것으로 추측된다.
+해당 Manager는 Sprite 들과, 해당 프로젝트에 Spine을 사용하셨다고 했는데, 그 Spine이 제공하는 SkeletonDataAsset 데이터 클래스를 관리하는 것으로 추측된다.
 
 ## 🏗️ [Constructor] ResourceManager
 
