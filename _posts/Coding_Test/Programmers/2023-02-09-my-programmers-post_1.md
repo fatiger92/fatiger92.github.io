@@ -100,8 +100,9 @@ public static int reversegcd(int n, int m)
 
 ![organize](https://media.giphy.com/media/PjTSEQy85NKOlZ7b19/giphy.gif){: width="30%" height="30%"}
 
-<strong style="color:Yellow; font-size:20pt">까알끔하다.<strong>
+<strong style="color:Yellow; font-size:20pt">까알끔하다.</strong>
 
+추가적으로 이 알고리즘은 매우 효율적이고, 일반적으로 빠른 결과를 제공한다고 한다.
 
 ## 🚀 제출한 코드
 
