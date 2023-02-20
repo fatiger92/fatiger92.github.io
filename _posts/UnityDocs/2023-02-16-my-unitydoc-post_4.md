@@ -20,14 +20,19 @@ Unity Korea 유투브 채널 **2월 알쓸유잡 : 메모리 최적화를 위한
 <br>
 
 # 💁‍♂️ 메모리 최적화를 위한 에셋 관리
+<hr style="width:100%" />
 
-## 💁‍♂️ PC 장치의 가상 메모리 시스템
+![img1](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/1.png){: width="50%" height="50%"}
+
+## 🔖 PC 장치의 가상 메모리 시스템
 - 실제 물리 메모리 < 게임에서 사용할 수 있는 메모리
 - 저장장치(HDD/SSD)가 물리 메모리를 보조 (스왑 페이지 / 페이지 파일)
 - 시스템 메모리가 그래픽 메모리를 보조 (Grephics Library)
-  
 
-## 💁‍♂️ 모바일 장치의 가상 메모리 시스템
+
+## 🔖 모바일 장치의 가상 메모리 시스템
+
+![img2](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/2.png){: width="70%" height="70%"}
 
 - PC: 실제 물리 메모리 < 게임에서 사용할 수 있는 메모리
 - 모바일: 게임에서 사용할 수 있는 메모리 <<<< 실제 물리 메모리
@@ -50,18 +55,18 @@ Unity Korea 유투브 채널 **2월 알쓸유잡 : 메모리 최적화를 위한
 
 그래서 모바일 게임일 수록 메모리관리에 신경을 써야한다고 해.
 
-## Unity에서 제공하는 Profiler Memory Module
+## 🔖 Unity에서 제공하는 Profiler Memory Module
 
 모바일 기기와 연결해서 현재 사용하고 있는 메모리를 실시간으로 확인할 수 있어.
 (Assets, Scene Memory, Scripts 등)
 
-![img3](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/3.png){: width="50%" height="50%"}
+![img3](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/3.png){: width="100%" height="100%"}
 
     Window > Analysis > Profiler
 
 위의 이미지와 같은 경로에 Profiler가 있는데 클릭해봐
 
-![img4](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/4.png){: width="50%" height="50%"}
+![img4](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/4.png){: width="100%" height="100%"}
 
 그럼 위의 이미지와 같은 유니티가 제공하는 Profiler를 사용할 수 있어.
 
@@ -70,7 +75,7 @@ Unity Korea 유투브 채널 **2월 알쓸유잡 : 메모리 최적화를 위한
 
 하지만 설치하는 법이 조금 다르기 때문에 아래에서 설명해줄게.
 
-## Unity에서 제공하는 Memory Profiler 
+## 🔖 Unity에서 제공하는 Memory Profiler 
 
 조금 더 디테일하게 알고 싶다면? Unity Korea의 Memory Profiler 1.0 활용법 소개 영상을 확인해보자.<br>
 [🔔영상 바로가기](https://youtu.be/rdspAfOFRJI)
@@ -90,7 +95,7 @@ Unity Korea 유투브 채널 **2월 알쓸유잡 : 메모리 최적화를 위한
 
 마지막으로 반드시 타겟 디바이스를 올려서 확인하는 걸 권장하고 있어.
 
-### 장점
+### 🤔 장점
 
 Snapshot을 떠서 두개를 비교할 수 있는 점이 장점인데 로비 씬, 인게임 씬을 각각 떠서 서로 비교하는게 되는 거야.
 
@@ -98,7 +103,7 @@ Snapshot을 떠서 두개를 비교할 수 있는 점이 장점인데 로비 씬
 
 AOS(안드로이드) Snapshot을 하나 뜨고 IOS Snapshot을 떠서 서로 비교를 할 수 있고, 또 서로 다른 기종의 비교도 가능하다고 해.
 
-### 설치하는 법
+### 🔎 설치하는 법
 
 이건 유니티 버전 2021.3 또는 이후의 버전부터 제공하는 기능이야.
 따라서 버전체크 잘하고 만약 내가 2021.3 또는 이후의 버전을 사용한다고 하면 
@@ -108,33 +113,33 @@ AOS(안드로이드) Snapshot을 하나 뜨고 IOS Snapshot을 떠서 서로 비
 위의 경로에서 Package Manager를 클릭해.
 그러면 아래와 같이 Package Manager가 켜질 꺼야.
 
-![img5](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/5.png){: width="50%" height="50%"}
+![img5](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/5.png){: width="100%" height="100%"}
 
 위의 빨간색 동그라미 부분의 + 를 클릭해서 <strong> Add By Name </strong> 을 선택해줘.
 
-![img6](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/6.png){: width="50%" height="50%"}
+![img6](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/6.png){: width="100%" height="100%"}
 
 위에서 Add prackage by name... 이야
 
-![img7](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/7.png){: width="50%" height="50%"}
+![img7](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/7.png){: width="100%" height="100%"}
 
     com.unity.memoryprofiler
 
 라고 입력한 뒤에 Add 버튼을 누르면 로딩 프로세스가 시작되고 설치가 진행 될거야
 
-![img8](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/8.png){: width="50%" height="50%"}
+![img8](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/8.png){: width="100%" height="100%"}
 
 제대로 설치가 되었다면 위와 같이 Package Manager에 Memory Profiler가 추가 돼.
 
 그리고 어디서 실행하냐면
 
-![img9](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/9.png){: width="50%" height="50%"}
+![img9](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/9.png){: width="100%" height="100%"}
 
     Window > Analysis
 
 위의 경로에 Memory Profiler가 추가 되는 데, 실행해보자
 
-![img10](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/10.png){: width="50%" height="50%"}
+![img10](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/10.png){: width="100%" height="100%"}
 
 위의 이미지와 같이 난생 처음 보는 녀석이 켜져.
 이미지에는 왼쪽 하단에 무언가 있지만, 너희들은 처음 켰으니까 아무 것도 없을 거야.
@@ -144,11 +149,11 @@ AOS(안드로이드) Snapshot을 하나 뜨고 IOS Snapshot을 떠서 서로 비
 에디터에서 Play 버튼을 누르고,
 저 버튼을 클릭하면
 
-![img11](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/11.png){: width="50%" height="50%"}
+![img11](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/11.png){: width="100%" height="100%"}
 
 이미지처럼 왼쪽 하단에 뭔가 하나 더 추가된게 보일 거야.
 
-![img12](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/12.png){: width="50%" height="50%"}
+![img12](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/12.png){: width="100%" height="100%"}
 
 그걸 클릭하면 이렇게 어떤 에셋이 메모리를 얼만큼 먹고 있고, 쉐이더가 얼만큼 먹고 있고, 특정 텍스트가 얼마나 먹고 있는지 디테일하게 확인할 수 있어.
 
@@ -156,16 +161,17 @@ AOS(안드로이드) Snapshot을 하나 뜨고 IOS Snapshot을 떠서 서로 비
 
 결론적으로 메모리 최적화에 관심이 있다면 이걸 사용하는 것은 필수적이라는 거야.
 
-# 메모리에 영향을 미치는 Asset 관리
+# 💁‍♂️ 메모리에 영향을 미치는 Asset 관리
+<hr style="width:100%" />
 
-## 중복 리소스
+## 🔖 중복 리소스
 - 유니티는 중복 파일 체크 X
 - 실수로 동일한 파일을 다른 폴더에
 - Font, Audio, Texture, Mesh ...
 
-### Asset Dependency
+### 📍 Asset Dependency
 
-![img13](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/13.png){: width="50%" height="50%"}
+![img13](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/13.png){: width="100%" height="100%"}
 
 예를 들어 위와 같이 탱크 프리팹이 있다고 가정할 때, 탱크는 Material에 종속되어 있고 Material은 Texture에 종속 되어 있어.
 
@@ -177,13 +183,13 @@ AOS(안드로이드) Snapshot을 하나 뜨고 IOS Snapshot을 떠서 서로 비
 
 실제로 중복 리소스는 정말 많이 일어나는 일이야.
 
-![img14](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/14.png){: width="50%" height="50%"}
+![img14](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/14.png){: width="100%" height="100%"}
 
 예를 들어 위와 같은 바위 A, B가 존재하고 같은 Material을 쓰고 있다고 생각해보자
 
 그리고 이런 상황에서 두가지를 Asset Bundle로 묶는다고 했을 때,
 
-![img15](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/15.png){: width="50%" height="50%"}
+![img15](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/15.png){: width="100%" height="100%"}
 
 A, B의 Material을 각각 Bundle로 묶고, C도 따로 묶어줘야해.
 그렇지 않으면 A와 B의 Material을 Asset Bundle로 묶는 과정에서 C라는 텍스쳐가 A, B 각각 따로 복제되어 묶이게 되는데 이렇게 되면 메모리에 같은 C의 텍스쳐가 2개가 올라가는 거야.
@@ -195,9 +201,9 @@ Addressables이 제공하는 ToolKit을 이용해서 Dependency를 조금 더 �
 
 그렇기 때문에 사용할 수 있다면 Addressables을 사용하는 것을 권장한다고 한번 더 이야기 해주고 있어. 
 
-### Audio
+### 📍 Audio
 
-![img16](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/16.png){: width="50%" height="50%"}
+![img16](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/16.png){: width="100%" height="100%"}
 
 - Force To Mono : 스테레오 정보를 없애버리고 그냥 Mono로만 듣는 것 (용량이 줄어듦)
 - Load type
@@ -225,9 +231,9 @@ Addressables이 제공하는 ToolKit을 이용해서 Dependency를 조금 더 �
 
 IOS는 MP3를 H/W 레벨로 디코딩 가능하지만, Unity 같은 경우 H/W가 아닌 S/W를 사용해서 처리하기 때문에 IOS에서 MP3 이점이 딱히 있진 않아.
 
-### Mesh
+### 📍 Mesh
 
-![img17](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/17.png){: width="50%" height="50%"}
+![img17](/assets/images/posts/UnityDocs/2023-02-16-my-unitydoc-post_4/17.png){: width="100%" height="100%"}
 
 - Mesh Compression은 저장 용량
   - 메모리와는 무관
