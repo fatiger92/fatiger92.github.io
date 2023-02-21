@@ -1,5 +1,5 @@
 ---
-title:  "[C# 으로 이해하는 자료구조] 3. 연결리스트 극장 2부작 (1/2)"
+title:  "[C# 으로 이해하는 자료구조] 3. 연결리스트 극장 4부작 (1/4)"
 excerpt: "C# 으로 이해하는 자료구조 - Alex Lee 선생님의 책으로 공부하는 공간입니다."
 
 categories:
@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-02-07
-last_modified_at: 2023-02-08
+last_modified_at: 2023-02-21
 ---
 
 알라딘에 있는 Alex Lee님의 **C#으로 이해하는 자료구조** 책을 보고 공부하며 정리 및 요약한 게시글입니다.  
