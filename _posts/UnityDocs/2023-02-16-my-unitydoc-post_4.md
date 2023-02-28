@@ -1,5 +1,5 @@
 ---
-title:  "[Unity Doc] 4. 메모리 최적화를 위한 에셋 관리 (1/4)"
+title:  "[Unity Doc] 4. 메모리 최적화를 위한 에셋 관리 (1/2)"
 excerpt: "내가 볼려고 만든 유니티 잡학지식 문서"
 
 categories:
@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-02-16
-last_modified_at: 2023-02-20
+last_modified_at: 2023-02-28
 ---
 
 Unity Korea 유투브 채널 **2월 알쓸유잡 : 메모리 최적화를 위한 에셋 관리** 영상을 보고 정리한 게시글입니다.
@@ -258,7 +258,7 @@ Read/Write Enabled 옵션을 키게 되면 메모리에 복제본이 생성되�
 # 🥱 끝 마치며
 <hr style="width:100%" />
 
-내용이 너무 많아서 4편에 걸쳐서 올려야 겠다.
+내용이 너무 많아서 2편에 걸쳐서 올려야 겠다.
 
 <br>
 
