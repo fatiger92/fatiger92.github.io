@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-02-27
-last_modified_at: 2023-02-28
+last_modified_at: 2023-03-03
 ---
 
     본 게시글은 광고가 아닌 100% 개인적인 생각입니다.
@@ -31,7 +31,7 @@ last_modified_at: 2023-02-28
 
 1. 사이드 스탭 잽 x2
 2. 프론트 스탭 원투 훅 x1
-3. 더킹 x1
+3. 레프트 더킹 x1
 4. 레프트 훅 x1
 5. 라이트 훅 x1
 6. 백 스탭 x1
