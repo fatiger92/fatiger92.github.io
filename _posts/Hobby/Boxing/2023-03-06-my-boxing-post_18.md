@@ -22,7 +22,7 @@ last_modified_at: 2023-03-08
 
 ## 🤣 이제는 줄넘기 한 라운드에 350개!!
 
-<strong style="color:orange, font-size:15pt">달성!!</strong>
+<strong style="color:yellow; font-size:20pt">달성!!</strong>
 
 
 ## 🤣 중급 5번째 자세 
