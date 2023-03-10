@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-01-19 
-last_modified_at: 2023-01-19
+last_modified_at: 2023-03-10
 ---
 <br>
 
@@ -19,6 +19,8 @@ last_modified_at: 2023-01-19
 1. [🚀Tsubaki_t1 블로그 바로가기](https://tsubakit1.hateblo.jp/)  
    <p style="font-size:12pt"> 👉일어로 되어있음 </p>
 
+2. [🚀From Epsilon 수학, 코딩노트 블로그 바로가기](https://blog.fromepsilon.com/)
+   <p style="font-size:12pt"> 👉포스트가 조금 적지만 이것 저것 배울 것이 많아 보임</p>
 
 <br>
 
