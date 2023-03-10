@@ -22,6 +22,9 @@ last_modified_at: 2023-03-10
 2. [🚀From Epsilon 수학, 코딩노트 블로그 바로가기](https://blog.fromepsilon.com/)
    <p style="font-size:12pt"> 👉포스트가 조금 적지만 이것 저것 배울 것이 많아 보임</p>
 
+3. [🚀Rito15 블로그 바로가기](https://rito15.github.io/posts/unity-opt-script-optimization/)
+   <p style="font-size:12pt"> 👉유니티 - 스크립트 최적화 라는 포스팅이 마음에 듦</p>
+
 <br>
 
 # 개발 용어 일어 모음
