@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2023-03-10
-last_modified_at: 2023-03-10
+last_modified_at: 2023-03-16
 ---
 
 # 🤔 왜 갑자기 이런 생각을 했는지
@@ -151,7 +151,7 @@ UI가 점점 많아 지면 많아질 수록, 그 구조가 복잡하면 복잡�
 
 따라서 제일 Best한 방법은 3번 즉 GetComponents를 사용하는 것이라는 결론을 도출할 수 있다.
 
-소요시간도 적고, string 값으로 검색을 할 수도 있는 두 마리의 토끼를 다 잡을 수 있는 방법이다. 
+만약 자식 오브젝트에 또 다른 자식 오브젝트가 없다면, 소요시간도 적고 string 값으로 검색을 할 수도 있는 두 마리의 토끼를 다 잡을 수 있는 방법이다. 
 
 
 ## 🔖 전체 코드
@@ -251,13 +251,25 @@ public class FindTestBox : MonoBehaviour
 }
 
 ```
+
+
+## 내용 추가
+
+혹시나 해서 GetComponentsInChildren을 사용해 봤는데 1번 Find를 쓴 것과 같은 28 ~ 31 sec가 나왔다.  
+
+또한 다른 방법으로는 Enum으로 관리하는 방법이 있는데 소요 시간이 28 ~ 31 sec로 GetComponentsInChildren와 같은 시간이 걸린다.  
+따라서 개발자가 관리하기에는 Enum으로 하는 것이 좋다고 생각한다.   
+- 각 UI 스크립트 마다 UI를 Enum으로 관리 가능 하기 때문에 조금 더 모듈화할 수 있다.
+
+관리하는 Enum의 개수 즉 찾아야 하는 오브젝트가 늘어날수록 소요시간이 오래 걸리고 O(n)의 시간 복잡도를 가지게 된다.  
+하지만 위의 전제 조건은 UI가 100만개일 경우이기 때문에 사실 1번, 2번, 3번, 4번(GetComponentsInChildren), 5번(Enum) 아무거나 사용해도 상관없다는 결론이 나온다. 
+
 <br>
 
 # 🥱 끝 마치며
 <hr style="width:100%" />
 
-설마 컴포넌트 넣는 걸 잊어버리겠어?
-
+설마 UI를 100만개나 쓰진 않겠지.
 
 <br>
 <strong style="color:yellow; font-size:100pt;">끝</strong>
