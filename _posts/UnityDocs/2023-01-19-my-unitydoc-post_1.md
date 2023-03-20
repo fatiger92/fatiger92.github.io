@@ -25,6 +25,12 @@ last_modified_at: 2023-03-10
 3. [🚀Rito15 블로그 바로가기](https://rito15.github.io/posts/unity-opt-script-optimization/)
    <p style="font-size:12pt"> 👉유니티 - 스크립트 최적화 라는 포스팅이 마음에 듦</p>
 
+4. [🚀이스트피버의 개발독립만세](https://m.blog.naver.com/eastfever5/222433571451)
+   <p style="font-size:12pt"> 👉유니티 최적화 기법 정리</p>
+
+5. [🚀Glingy 블로그](https://blog.naver.com/PostView.naver?blogId=2983934&logNo=221420274733&parentCategoryNo=&categoryNo=71&viewDate=&isShowPopularPosts=false&from=postView)
+   <p style="font-size:12pt"> 👉유니티 최적화 기법 정리</p>
+
 <br>
 
 # 개발 용어 일어 모음
