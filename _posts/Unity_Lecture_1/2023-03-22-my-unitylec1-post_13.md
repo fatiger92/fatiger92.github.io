@@ -311,6 +311,9 @@ public static T ReadEnum<T>(string[] rows)
 }
 ```
 
+[🔔String 문자열을 Enum으로 바꾸는 방법 - 잡다한 IOS 개발 일기](https://magicmon.tistory.com/102)
+{: .notice--warning}
+
 혹시 까먹을까봐 기록해놓는다.
 
 # 📢 오늘의 한마디
