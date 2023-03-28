@@ -67,7 +67,7 @@ last_modified_at: 2023-03-24
 
 ## 🤣 느낀점
 
-훅 칠때 발 회전 몸회천 잊지 말기
+훅 칠때 발 회전 몸회전 잊지 말기
 
   <strong style="color:crimson; font-size:25pt">JUST FOCUS AND DO IT !!</strong>
 
