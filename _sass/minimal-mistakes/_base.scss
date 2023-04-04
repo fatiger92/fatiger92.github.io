@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+  font-family: $Cool;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -174,7 +174,8 @@ figcaption > code,
 td > code {	
   padding-top: 0.1rem;	
   padding-bottom: 0.1rem;	
-  font-size: 0.8em;	
+  font-size: 1.2em;	
+  font-family: $Cool;
   background: $code-background-color;	
   color: $primary-color;	
   border-radius: $border-radius;	
