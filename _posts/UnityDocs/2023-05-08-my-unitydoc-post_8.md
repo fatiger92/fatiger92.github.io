@@ -38,6 +38,19 @@ last_modified_at: 2023-05-08
 위의 이미지와 같이 Panel에 Canvas Group 컴포넌트를 추가해서 사용한다.
 그러면 Panel의 하위 오브젝트를 포함한 Panel의 Alpha 값을 한번에 관리할 수 있다.
 
+```c#
+public void Start()
+{
+    DotweenFadeOutAnimation();
+}
+public void DotweenFadeOutAnimation()
+{
+    var canvasGroup = transform.Find("Panel").GetComponent<CanvasGroup>();
+    canvasGroup.DOFade(0, 2f).OnComplete(() => { canvasGroup.alpha = 0; });
+}
+```
+위의 코드와 같이 CanvasGroup에 접근하여 alpha 값을 조정하는 방식으로 Fade Out 애니메이션을 구현한다.  
+
 [🚀베르의 프로그래밍 노트 - Canvas Group 사용법](https://wergia.tistory.com/177)  
 {: .notice--warning}
 
