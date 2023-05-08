@@ -54,15 +54,15 @@ public void DotweenFadeOutAnimation()
 [🚀베르의 프로그래밍 노트 - Canvas Group 사용법](https://wergia.tistory.com/177)  
 {: .notice--warning}
 
-위의 링크글에서 디아블로의 맵을 예시로 들어서 설명한다.
-그 예시는 맵을 띄워도 캐릭터의 마우스 이동을 막지 않는 기능인데, 레이캐스트 블록 옵션 On/Off로 해당 기능을 구현할 수 있다. 
+위의 링크글에서 디아블로의 맵을 예시로 들어서 설명한다.  
+그 예시는 맵을 띄워도 마우스로 인한 캐릭터 이동을 막지 않는 기능인데, 레이캐스트 블록 옵션 On/Off로 해당 기능을 구현할 수 있다. 
 
 <br>
 
 # 🥱 끝 마치며
 <hr style="width:100%" />
 
-Canvas를 한꺼번에 관리하기 위한 사실상 Alpha 속성을 통해, Fade 애니메이션을 사용하기 위함이 주된 목적이 되는 컴포넌트이다.
+Canvas를 한꺼번에 관리하기 위한 사실상 Alpha 속성을 통해, Fade 애니메이션을 사용하기 위함이 주된 목적이 되는 Component다.
 
 <br>
 <strong style="color:yellow; font-size:100pt;">끝</strong>
