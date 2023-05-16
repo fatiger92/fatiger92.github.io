@@ -1,5 +1,5 @@
 ---
-title:  "복싱 44일차 - 스파링"
+title:  "복싱 44일차 - 연습"
 excerpt: "복싱 연대기를 기록하는 곳"
 
 categories:
