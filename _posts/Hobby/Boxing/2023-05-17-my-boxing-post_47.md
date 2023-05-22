@@ -28,8 +28,8 @@ last_modified_at: 2023-05-18
 
 ## 🤣 느낀점
 
-어깨가 말썽이다.
-천천히라도 하체가 돌고 몸이 나가고 팔이 나가는 걸 연습하자.
+어깨가 말썽이다.  
+천천히라도 하체가 돌고 몸이 나가고 팔이 나가는 걸 연습하자.  
 스파링데이에는 말썽부리지 않았으면 좋겠다.
 
 <strong style="color:crimson; font-size:25pt">JUST FOCUS AND DO IT !!</strong>
