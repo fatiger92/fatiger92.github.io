@@ -3,9 +3,9 @@ title:  "[알린이의 코테 입문 #005 - 008] 사칙연산, 조건문, 배열
 excerpt: "프로그래머스"
 
 categories:
-  - Algorithm
+  - Programmers
 tags:
-  - [Algorithm]
+  - [Programmers]
 toc: true
 toc_sticky: true
 date: 2023-08-09
@@ -16,7 +16,7 @@ last_modified_at: 2023-08-09
 
 ## 🔎 문제 1. 두 수의 나눗셈
 
-![image1](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_2/1.png){: width="50%" height="50%"}
+![image1](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_2/1.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -35,7 +35,7 @@ public class Solution {
 처음에 위와 같이 생각했다.  
 하지만 무언가 문제가 있는지
 
-![image1-1](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_2/1-1.png){: width="50%" height="50%"}
+![image1-1](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_2/1-1.png){: width="50%" height="50%"}
 
 위와 같은 문제가 생겼다.
 Convert.ToInt32 메서드를 호출하는 과정에서 데이터 손실이 나는게 틀림없다.
@@ -75,7 +75,7 @@ public class Solution {
 
 ## 🔎 문제 2. 숫자 비교하기
 
-![image1](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_2/2.png){: width="50%" height="50%"}
+![image2](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_2/2.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -94,7 +94,7 @@ public class Solution {
 
 ## 🔎 문제 3. 분수의 덧셈
 
-![image3](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_2/3.png){: width="50%" height="50%"}
+![image3](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_2/3.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -218,7 +218,7 @@ a * b / GCD(a ,b);
 
 ## 🔎 문제 4. 배열 두 배 만들기
 
-![image4](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_2/4.png){: width="50%" height="50%"}
+![image4](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-algorithm-post_2/4.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이

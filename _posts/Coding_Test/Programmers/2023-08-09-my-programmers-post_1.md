@@ -3,9 +3,9 @@ title:  "[알린이의 코테 입문 #001 - 004] 사칙연산"
 excerpt: "프로그래머스"
 
 categories:
-  - Algorithm
+  - Programmers
 tags:
-  - [Algorithm]
+  - [Programmers]
 toc: true
 toc_sticky: true
 date: 2023-08-09
@@ -16,7 +16,7 @@ last_modified_at: 2023-08-09
 
 ## 🔎 문제 1. 두 수의 합
 
-![image1](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_1/1.png){: width="50%" height="50%"}
+![image1](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_1/1.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -33,7 +33,7 @@ public class Solution {
 
 ## 🔎 문제 2. 두 수의 차
 
-![image2](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_1/2.png){: width="50%" height="50%"}
+![image2](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_1/2.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -50,7 +50,7 @@ public class Solution {
 
 ## 🔎 문제 3. 두 수의 곱
 
-![image3](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_1/3.png){: width="50%" height="50%"}
+![image3](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_1/3.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
@@ -67,7 +67,7 @@ public class Solution {
 
 ## 🔎 문제 4. 몫 구하기
 
-![image4](/assets/images/posts/Coding_Test/Algorithm/2023-08-09-my-algorithm-post_1/4.png){: width="50%" height="50%"}
+![image4](/assets/images/posts/Coding_Test/Programmers/2023-08-09-my-programmers-post_1/4.png){: width="50%" height="50%"}
 
 
 ## 🤔 나의 풀이
