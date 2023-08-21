@@ -236,10 +236,50 @@ public class Solution {
 }
 ```
 
+## 😮 다른 사람의 풀이 확인
+
+### ⚒️ 1번 풀이
+
+LINQ를 사용해 한줄로 깔끔하게 처리한 코드이다.
+
+```csharp
+using System;
+using System.Linq;
+public class Solution {
+    public double solution(int[] numbers) {
+        return numbers.Average();
+    }
+}
+```
+
+### ⚒️ 2번 풀이
+
+제한 사항은 이미 정해진 규칙이다.  
+그런데 굳이 명시할 필요가 있나 싶은 코드이다.  
+그냥 쓸때없는 코드를 추가적으로 작성한 Worst case 인 것 같다.  
+사실 이 코드에서 필요한 부분은 `return numbers.Average();` 한줄이 끝이다.  
+
+```csharp
+using System;
+using System.Linq;
+
+public class Solution {
+    public double solution(int[] numbers) {
+        if (numbers.Length == 0 || numbers.Length > 100) {
+            throw new Exception("invalid param length");
+        }
+        if (numbers.Where(x=>x<0 || x>1000).Any() == true) {
+            throw new Exception("invalid element");
+        }
+        return numbers.Average();
+    }
+}
+```
+
 ## 🤣 한마디
 
-조금만 비틀어도 생각을 조금 해야한다.  
-하지만 풀어내는 것 자체가 너무 재미있음.  
+의미없는 코드를 작성하는 건, 가독성을 헤칠 뿐만아니라 다른 팀원과 협업할 때 스트레스만 줄 뿐이다.  
+코드로 암호
 
 <br>
 
