@@ -17,6 +17,7 @@ last_modified_at: 2023-08-23
 [🔔서적 보러가기 클릭](https://product.kyobobook.co.kr/detail/S000000935831)
 {: .notice--warning}
 
+![reading](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif){: width="30%" height="30%"}
 
 ## 💁‍♂️ 왜 이 책을 구매하셨는지?
 
