@@ -44,7 +44,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Data Structure 1" %}
-                        <li><a href="/categories/data-structure-1" class="">C#으로 이해하는 자료구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/data-structure-1" class="">Data structures in C# ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -69,14 +69,14 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 1" %}
-                    <li><a href="/categories/unity-lesson-1" class="">Unity Lecture 1 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-1" class="">Review :: Clicker Game ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Unity Lesson 2" %}
-                    <li><a href="/categories/unity-lesson-2" class="">Unity Lecture 2 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/unity-lesson-2" class="">Unity C# Mastery ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -138,7 +138,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Savings" %}
-                    <li><a href="/categories/savings" class="">적금 정보 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/savings" class="">Financial ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -156,7 +156,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Dev Dictionary" %}
-                    <li><a href="/categories/dev-dictionary" class="">아무도 안 알려주는 개발 잡학사전 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/dev-dictionary" class="">Secret Dev tips ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
