@@ -139,7 +139,7 @@ public class Solution {
             }
         }
 
-        // 2. 2중 for문으로 순서를 찾아서 거기에 갚을 넣는다.
+        // 2. 2중 for문으로 순서를 찾아서 거기에 값을 넣는다.
         for (var i = 0; i < arrTemp.Length; i++)
         {
             for (var j = 0; j < emergency.Length; j++)
