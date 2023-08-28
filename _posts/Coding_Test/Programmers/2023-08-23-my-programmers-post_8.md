@@ -143,7 +143,7 @@ public class Solution {
         for (var i = 0; i < arrTemp.Length; i++)
         {
             for (var j = 0; j < emergency.Length; j++)
-            {
+            {ㄴ
                 if (arrTemp[i] == emergency[j])
                     answer[j] = i + 1;
             }
