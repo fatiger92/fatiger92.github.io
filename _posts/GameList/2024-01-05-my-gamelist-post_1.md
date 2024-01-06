@@ -127,7 +127,7 @@ last_modified_at: 2024-01-05
   워리어로 전직 이후 2차 ~ 4차 전직 까지 롱소드를 메인으로 사용하는 직업과 양손도끼를 주로 사용하는 직업으로 나뉘어져 있다.  
 > 특징으로는 근접 딜러이며 높은 생명력, 방어력, 전투 지속력 바탕으로 반격에 능숙한 직업이다.  
 
-<span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-1. 아처 </span>
+<span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-2. 아처 </span>
 
 ![img11](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/11.png)
 
@@ -135,7 +135,7 @@ last_modified_at: 2024-01-05
   아처로 전직 이후 2차 ~ 4차 전직 까지 활을 메인으로 사용하는 직업과 석궁을 주로 사용하는 직업으로 나뉘어져 있다.  
 > 아처는 원거리 딜러로 메인 딜러 역할을하고 있으며 범위 공격과 높은 누킹데미지로 목표를 빠르게 리타이어 시킬 수 있다.  
 
-<span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-1. 메이지 </span>
+<span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-3. 메이지 </span>
 
 ![img12](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/10.png)
 
