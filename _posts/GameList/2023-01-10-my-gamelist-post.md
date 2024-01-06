@@ -1,5 +1,5 @@
 ---
-title:  "To Do Game List"
+title:  "0. To Do Game List"
 excerpt: "A list of games I want to play in the future."
 
 categories:
