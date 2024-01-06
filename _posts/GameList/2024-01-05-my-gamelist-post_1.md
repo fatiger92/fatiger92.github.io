@@ -121,7 +121,7 @@ last_modified_at: 2024-01-05
 
 <span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-1. 워리어 </span>
 
-![img10](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/10.png)
+![img10](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/12.png)
 
 > 워리어는 롱소드를 주무기로 사용하는 전사 계열의 직업이다.  
   워리어로 전직 이후 2차 ~ 4차 전직 까지 롱소드를 메인으로 사용하는 직업과 양손도끼를 주로 사용하는 직업으로 나뉘어져 있다.  
@@ -137,7 +137,7 @@ last_modified_at: 2024-01-05
 
 <span style="color:skyblue; font-size:14pt; font-weight:bold"> 5-1. 메이지 </span>
 
-![img12](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/12.png)
+![img12](/assets/images/posts/Game_Review/2024-01-05-my-gamelist-post_1/10.png)
 
 > 메이지는 지팡이를 주무기로 마법을 사용하는 마법사 계열의 직업이다.  
   메이지로 전직 이후 2차 ~ 4차 전직 까지 메인으로 공격 마법을 사용하는 직업과 자체 버프 등 제어효과를 사용하는 직업으로 나뉘어져 있다.  
