@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/profile_pics/bio-photo-summer.png"
+og_image                 : "/assets/images/profile_pics/bio-photo-winter.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Victor Ji 🐯"
-  avatar           :  "/assets/images/profile_pics/bio-photo-summer.png"
+  avatar           :  "/assets/images/profile_pics/bio-photo-winter.png"
   bio              : "**호랑이에 진심인 개발자**"
   location         : "Seoul, Republic of Korea"
   email            :
