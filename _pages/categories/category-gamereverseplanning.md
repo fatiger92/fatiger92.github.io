@@ -1,7 +1,7 @@
 ---
-title: "Game List Record"
+title: "Game Reverse Planning"
 layout: archive
-permalink: categories/gamelist
+permalink: categories/gamereverseplanning
 author_profile: true
 sidebar_main: true
 ---
@@ -10,7 +10,7 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Game List'] %}
+{% assign posts = site.categories['Game Reverse Planning'] %}
 {% for post in posts %} 
 {% include archive-single2.html type=page.entries_layout %} 
 {% endfor %}

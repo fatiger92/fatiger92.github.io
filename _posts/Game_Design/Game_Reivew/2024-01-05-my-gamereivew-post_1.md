@@ -3,9 +3,9 @@ title:  "[#001] 버섯커 키우기"
 excerpt: "버섯커 키우기를 해보고 리뷰해보기"
 
 categories:
-  - Game List
+  - Game Review
 tags:
-  - [Game List]
+  - [Game Review]
 toc: true
 toc_sticky: true
 date: 2024-01-05

@@ -122,12 +122,19 @@
                 {% endif %}
             {% endfor %}
         </ul>
-<!--Below things are related Game Review-->
-        <span class="nav__sub-title">Game Review</span>
+<!--Below things are related Game Design-->
+        <span class="nav__sub-title">Game Design</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Game List" %}
-                    <li><a href="/categories/gamelist" class="">Game List ({{category[1].size}})</a></li>
+                {% if category[0] == "Game Review" %}
+                    <li><a href="/categories/gamereview" class="">Game Review ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Game Reverse Planning" %}
+                    <li><a href="/categories/gamereverseplanning" class="">Game Planning ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>

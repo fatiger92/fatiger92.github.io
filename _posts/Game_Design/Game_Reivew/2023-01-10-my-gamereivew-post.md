@@ -3,9 +3,9 @@ title:  "0. To Do Game List"
 excerpt: "A list of games I want to play in the future."
 
 categories:
-  - Game List
+  - Game Review
 tags:
-  - [Game List]
+  - [Game Review]
 toc: true
 toc_sticky: true
 date: 2023-01-13
