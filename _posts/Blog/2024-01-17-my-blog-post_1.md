@@ -20,6 +20,8 @@ last_modified_at: 2024-01-17
 
 # 깃 블로그 검색엔진에 등록하기
 
+![Damn](https://media.giphy.com/media/voOhKPgzYsyPu/giphy.gif){: width="30%" height="30%"}
+
 생각해보니까 블로그를 만들고 나서 여태 검색엔진에 등록하질 않고 있었다.  
 나만 모르고 있었는듯...
 
@@ -173,7 +175,7 @@ link가 모여있는 곳에 살포시 삽입해주자.
 
 # 5. 검색엔진에 등록하기
 
-## 5-1. 구글(Googld)
+## 5-1. 구글(Google)
 
 [Google Search Console](https://search.google.com/search-console/welcome?hl=ko) 접속 -> URL 접두어 선택 -> https://깃헙주소 입력 -> 계속 버튼 클릭
 
@@ -222,7 +224,11 @@ https://깃헙주소
 바로 아래 `색인 생성 요청` 을 누른다.
 
 그러면 색인 생성 요청 상태가 되는데 크롤링 대기열에 추가되기 때문에 바로 적용되지는 않는다.  
-블로그의 경우 1~2일 정도가 소요된다고 한다.
+블로그의 경우 짧게는 30분, 길게는 2일 정도가 소요된다고 한다.
+
+다음과 같이 나왔다면 끝
+
+![img14](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/14.png)
 
 ## 5-2. 네이버
 
@@ -271,8 +277,26 @@ https://깃헙주소
 
 ![img10](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/10.png)
 
+그래서 해당 구문에 해당하는 것을 변경하고 다시 사이트 간단 체크를 했다.
 
+다음과 같이 변경된 것을 확인 가능
 
+![img11](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/11.png)
 
+# 6. 다음
 
-## 5-3. 그외
+망해버린 검색엔진이지만 그냥 해보자.
+
+[다음 검색 등록](https://register.search.daum.net/index.daum) 에 접속한다.  
+
+하단의 이미지와 같이 내 깃 블로그 주소를 넣는다.
+
+![img12](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/12.png)
+
+그러면 개인 정보 수집 동의 페이지가 나오는 데 동의한다.
+
+![img13](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/13.png)
+
+본격적으로 등록한다.
+
+확인을 누르고 나서 등록완료가 떴다면 끝.
