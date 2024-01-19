@@ -166,18 +166,49 @@ layout: none
 
 ## 5-1. 구글(Googld)
 
-[Google Search Console](https://search.google.com/search-console/welcome?hl=ko) 접속 -> URL 접두어 선택 -> https://깃헙주소/sitemap.xml 입력 -> 계속 버튼 클릭
+[Google Search Console](https://search.google.com/search-console/welcome?hl=ko) 접속 -> URL 접두어 선택 -> https://깃헙주소 입력 -> 계속 버튼 클릭
 
 그럼 인증 확인 후에 소유권 확인이라는 팝업창이 나온다.
 그리고 2가지 단계가 보이는데,
 
 1. 다음 파일을 다운로드 합니다.
 2. 다음 위치에 파일을 업로드 합니다. 
-https://깃헙주소/sitemap.xml/
+https://깃헙주소
 
 그대로 따라한다.
 
 2번은 다운받은 파일을 그냥 루트 폴더에 업로드해서 커밋하면 된다.
+
+그리고 돌아가서 확인을 누른다.
+
+다음의 팝업이 나온다면 성공
+
+![img2](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/2.png)
+
+확인 말고 속성으로 이동을 누른다.
+
+그럼 다음과 같은 대시보드가 나온다.
+
+![img3](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/3.png)
+
+여기서 왼쪽 메뉴에 Sitemaps를 클릭한다.
+
+![img4](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/4.png)
+
+제출 빡
+
+![img5](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/5.png)
+
+성공
+
+그리고 왼쪽 메뉴에서 URL 검사를 클릭하면 
+
+검색 탭이 하이라이트 된다.
+
+당황하지 말고 깃 블로그 주소를 넣고 돋보기 아이콘을 클릭하자
+그럼 다음과 같이 URL이 Google에 등록되어 있지않다고 나온다.
+
+![img6](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/6.png)
 
 ## 5-2. 네이버
 
