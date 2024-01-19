@@ -116,7 +116,7 @@ sitemap:
 ```text
 User-agent: *
 Allow: /
-Sitemap: https://yenarue.github.io/sitemap.xml
+Sitemap: https://깃 블로그/sitemap.xml
 ```
 
 # 4. feed.xml 생성하기
@@ -161,6 +161,15 @@ layout: none
   </channel>
 </rss>
 ```
+
+그리고나서 head.html 에 아래의 태그도 추가해야한다.  
+link가 모여있는 곳에 살포시 삽입해주자.
+
+```html
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }} Feed">
+```
+
+`https://깃 블로그/feed` 접속 후 잘 나오는 지 확인
 
 # 5. 검색엔진에 등록하기
 
@@ -210,6 +219,60 @@ https://깃헙주소
 
 ![img6](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/6.png)
 
+바로 아래 `색인 생성 요청` 을 누른다.
+
+그러면 색인 생성 요청 상태가 되는데 크롤링 대기열에 추가되기 때문에 바로 적용되지는 않는다.  
+블로그의 경우 1~2일 정도가 소요된다고 한다.
+
 ## 5-2. 네이버
+
+네이버는 [Naver Search Advisor](https://searchadvisor.naver.com/) 에 접속한다.
+당연히 로그인을 하고 웹 마스터 도구 -> 사이트 관리 -> 사이트 등록 페이지로 이동한다.
+
+1. URL 입력 박스에 내 깃 블로그 주소를 집어넣고 엔터를 친다.
+2. 사이트 소유확인 페이지가 나오면 HTML 파일 업로드의 1번 부터 따라한다. (다운 받아서 루트 폴더에 넣고 커밋)
+3. 소유 확인을 누른다.
+-> 깃 블로그 동기화 시간이 있으니 커밋 후 적어도 1~2분 정도 뒤에 소유 확인을 누른다.
+
+그럼 소유 확인 완료 알림창이 뜨고 다음과 같이 사이트 목록에 내 깃 블로그 URL이 추가된다.
+
+![img7](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/7.png)
+
+이제 사이트 맵을 등록하러 가보자.
+
+방금 사이트 목록에 올라간 내 깃 블로그 주소를 클릭한다.
+왼쪽에 메뉴가 보이는데, 요청을 누른다.
+그곳에 사이트맵 제출이 있다.
+
+다음과 같이 제출
+
+![img8](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/8.png)
+
+아까 만든 RSS도 등록하자.
+
+다시 왼쪽 메뉴의 요청 탭 하위를 보면 RSS 제출이 있다 클릭한다.
+ 
+입력 박스에 `https://깃 블로그 주소/feed` 를 작성하고 확인을 누른다.
+
+## 5-3. 최종 확인
+
+다음과 같이 간단 체크 탭을 누른다.
+
+사이트 간단 체크라는 페이지가 나오는데, 자신의 깃 블로그 주소를 입력하고 엔터를 누르면 간단하게 체크를 해준다.
+
+목록을 체크하면서 변경하고 싶은 게 있다면 가이드 쪽의 링크를 클릭하자.  
+아주 친절하게 뭘 고쳐야 되는지 알려준다.
+
+![img9](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/9.png)
+
+나는 사이트 설명을 바꾸고 싶어서 [사이트 설명 설정/변경](https://searchadvisor.naver.com/guide/markup-content) 을 클릭했다.
+
+다음과 같이 같이 뭘 고쳐야 하는지 알려준다.
+
+![img10](/assets/images/posts/Blog/2024-01-17-my-blog-post_1/10.png)
+
+
+
+
 
 ## 5-3. 그외
